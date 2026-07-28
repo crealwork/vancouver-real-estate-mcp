@@ -1,0 +1,1665 @@
+{
+  "abbotsford": {
+    "board": "FVREB",
+    "first_period": "1991-06",
+    "last_period": "2026-06",
+    "level": "municipality",
+    "name": "Abbotsford",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_acreage",
+      "townhouse"
+    ],
+    "slug": "abbotsford"
+  },
+  "abbotsford-central-poplar": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Abbotsford Central Poplar",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "abbotsford-central-poplar"
+  },
+  "abbotsford-east": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Abbotsford East",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "abbotsford-east"
+  },
+  "abbotsford-west": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Abbotsford West",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "abbotsford-west"
+  },
+  "bowen-island": {
+    "board": "GVR",
+    "first_period": "2018-12",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Bowen Island",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "bowen-island"
+  },
+  "british-columbia": {
+    "board": "both",
+    "first_period": "2005-01",
+    "last_period": "2026-06",
+    "level": "aggregate",
+    "name": "British Columbia",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_one_storey",
+      "detached_two_storey",
+      "townhouse"
+    ],
+    "slug": "british-columbia"
+  },
+  "burnaby": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Burnaby",
+    "property_types": [
+      "apartment",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "burnaby"
+  },
+  "burnaby-east": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Burnaby East",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "burnaby-east"
+  },
+  "burnaby-metrotown": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Burnaby Metrotown",
+    "property_types": [
+      "apartment"
+    ],
+    "slug": "burnaby-metrotown"
+  },
+  "burnaby-north": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Burnaby North",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "burnaby-north"
+  },
+  "burnaby-north-area-1": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Burnaby North Area 1",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "burnaby-north-area-1"
+  },
+  "burnaby-north-area-2": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Burnaby North Area 2",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "burnaby-north-area-2"
+  },
+  "burnaby-other": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Burnaby Other",
+    "property_types": [
+      "apartment"
+    ],
+    "slug": "burnaby-other"
+  },
+  "burnaby-south": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Burnaby South",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "burnaby-south"
+  },
+  "burnaby-south-other": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Burnaby South Other",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "burnaby-south-other"
+  },
+  "burnaby-south-slope": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Burnaby South Slope",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "burnaby-south-slope"
+  },
+  "canada": {
+    "board": "both",
+    "first_period": "2005-01",
+    "last_period": "2026-06",
+    "level": "aggregate",
+    "name": "Canada",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_one_storey",
+      "detached_two_storey",
+      "townhouse"
+    ],
+    "slug": "canada"
+  },
+  "chilliwack": {
+    "board": "both",
+    "first_period": "2005-01",
+    "last_period": "2026-06",
+    "level": "aggregate",
+    "name": "Chilliwack",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_one_storey",
+      "detached_two_storey",
+      "townhouse"
+    ],
+    "slug": "chilliwack"
+  },
+  "cloverdale": {
+    "board": "FVREB",
+    "first_period": "2000-01",
+    "last_period": "2026-06",
+    "level": "municipality",
+    "name": "Cloverdale",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "cloverdale"
+  },
+  "continued-abbotsford-central-poplar": {
+    "board": "legacy",
+    "first_period": "2009-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Continued Abbotsford Central Poplar",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "continued-abbotsford-central-poplar"
+  },
+  "coquitlam": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Coquitlam",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "coquitlam"
+  },
+  "coquitlam-central": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Coquitlam Central",
+    "property_types": [
+      "detached",
+      "townhouse"
+    ],
+    "slug": "coquitlam-central"
+  },
+  "coquitlam-north": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Coquitlam North",
+    "property_types": [
+      "townhouse"
+    ],
+    "slug": "coquitlam-north"
+  },
+  "coquitlam-northeast": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Coquitlam Northeast",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "coquitlam-northeast"
+  },
+  "coquitlam-northwest": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Coquitlam Northwest",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "coquitlam-northwest"
+  },
+  "coquitlam-westwood": {
+    "board": "legacy",
+    "first_period": "1992-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Coquitlam Westwood",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "coquitlam-westwood"
+  },
+  "delta": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Delta",
+    "property_types": [
+      "apartment",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "delta"
+  },
+  "fraser-valley": {
+    "board": "FVREB",
+    "first_period": "1991-06",
+    "last_period": "2026-06",
+    "level": "board",
+    "name": "Fraser Valley",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_acreage",
+      "detached_one_storey",
+      "detached_two_storey",
+      "townhouse"
+    ],
+    "slug": "fraser-valley"
+  },
+  "greater-vancouver": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-06",
+    "level": "board",
+    "name": "Greater Vancouver",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_one_storey",
+      "detached_two_storey",
+      "townhouse"
+    ],
+    "slug": "greater-vancouver"
+  },
+  "l-city-murrayville-willghby-brookswd": {
+    "board": "legacy",
+    "first_period": "2008-01",
+    "last_period": "2008-12",
+    "level": "neighbourhood",
+    "name": "L City Murrayville Willghby Brookswd",
+    "property_types": [
+      "composite"
+    ],
+    "slug": "l-city-murrayville-willghby-brookswd"
+  },
+  "ladner": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Ladner",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "ladner"
+  },
+  "langley": {
+    "board": "FVREB",
+    "first_period": "1991-06",
+    "last_period": "2026-06",
+    "level": "municipality",
+    "name": "Langley",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_acreage",
+      "townhouse"
+    ],
+    "slug": "langley"
+  },
+  "langley-aldergrove": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Langley Aldergrove",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "langley-aldergrove"
+  },
+  "langley-city-murrayville-willoughby-brookswood": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Langley City Murrayville Willoughby Brookswood",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "langley-city-murrayville-willoughby-brookswood"
+  },
+  "langley-city-murryvl-willoby-brkswd": {
+    "board": "legacy",
+    "first_period": "2009-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Langley City Murryvl Willoby Brkswd",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "langley-city-murryvl-willoby-brkswd"
+  },
+  "langley-walnut-grove": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Langley Walnut Grove",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "langley-walnut-grove"
+  },
+  "lower-mainland": {
+    "board": "both",
+    "first_period": "2000-01",
+    "last_period": "2026-06",
+    "level": "aggregate",
+    "name": "Lower Mainland",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_acreage",
+      "townhouse"
+    ],
+    "slug": "lower-mainland"
+  },
+  "lower-mainland-gv-fv": {
+    "board": "legacy",
+    "first_period": "2005-01",
+    "last_period": "2026-06",
+    "level": "neighbourhood",
+    "name": "Lower Mainland Gv Fv",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_one_storey",
+      "detached_two_storey",
+      "townhouse"
+    ],
+    "slug": "lower-mainland-gv-fv"
+  },
+  "maple-ridge": {
+    "board": "GVR",
+    "first_period": "2000-01",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Maple Ridge",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "maple-ridge"
+  },
+  "maple-ridge-central": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Maple Ridge Central",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "maple-ridge-central"
+  },
+  "maple-ridge-pitt-meadows": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Maple Ridge Pitt Meadows",
+    "property_types": [
+      "apartment",
+      "detached_acreage",
+      "townhouse"
+    ],
+    "slug": "maple-ridge-pitt-meadows"
+  },
+  "maple-ridge-west": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Maple Ridge West",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "maple-ridge-west"
+  },
+  "mission": {
+    "board": "FVREB",
+    "first_period": "2000-01",
+    "last_period": "2026-06",
+    "level": "municipality",
+    "name": "Mission",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_acreage",
+      "townhouse"
+    ],
+    "slug": "mission"
+  },
+  "new-westminster": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "New Westminster",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "new-westminster"
+  },
+  "north-delta": {
+    "board": "FVREB",
+    "first_period": "1991-06",
+    "last_period": "2026-06",
+    "level": "municipality",
+    "name": "North Delta",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "north-delta"
+  },
+  "north-delta-annieville": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "North Delta Annieville",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "north-delta-annieville"
+  },
+  "north-delta-nordel": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "North Delta Nordel",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "north-delta-nordel"
+  },
+  "north-delta-scottsdale": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "North Delta Scottsdale",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "north-delta-scottsdale"
+  },
+  "north-delta-sunshine-hills-and-woods": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "North Delta Sunshine Hills And Woods",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "north-delta-sunshine-hills-and-woods"
+  },
+  "north-surrey": {
+    "board": "FVREB",
+    "first_period": "1991-06",
+    "last_period": "2026-06",
+    "level": "municipality",
+    "name": "North Surrey",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "north-surrey"
+  },
+  "north-surrey-bolivar-heights": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "North Surrey Bolivar Heights",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "north-surrey-bolivar-heights"
+  },
+  "north-surrey-cedar-hills": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "North Surrey Cedar Hills",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "north-surrey-cedar-hills"
+  },
+  "north-surrey-fraser-heights": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "North Surrey Fraser Heights",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "north-surrey-fraser-heights"
+  },
+  "north-surrey-guildford": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "North Surrey Guildford",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "north-surrey-guildford"
+  },
+  "north-surrey-other": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "North Surrey Other",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "north-surrey-other"
+  },
+  "north-surrey-whalley": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "North Surrey Whalley",
+    "property_types": [
+      "apartment",
+      "composite"
+    ],
+    "slug": "north-surrey-whalley"
+  },
+  "north-vancouver": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "North Vancouver",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "north-vancouver"
+  },
+  "north-vancouver-central": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "North Vancouver Central",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "north-vancouver-central"
+  },
+  "north-vancouver-seymour": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "North Vancouver Seymour",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "north-vancouver-seymour"
+  },
+  "north-vancouver-west": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "North Vancouver West",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "north-vancouver-west"
+  },
+  "pitt-meadows": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Pitt Meadows",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "pitt-meadows"
+  },
+  "port-coquitlam": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Port Coquitlam",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "port-coquitlam"
+  },
+  "port-coquitlam-mary-hill-citadel": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Port Coquitlam Mary Hill Citadel",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "port-coquitlam-mary-hill-citadel"
+  },
+  "port-coquitlam-other": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Port Coquitlam Other",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "port-coquitlam-other"
+  },
+  "port-moody": {
+    "board": "GVR",
+    "first_period": "2000-01",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Port Moody",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "port-moody"
+  },
+  "port-moody-north": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Port Moody North",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "port-moody-north"
+  },
+  "port-moody-west": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Port Moody West",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "port-moody-west"
+  },
+  "richmond": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Richmond",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "richmond"
+  },
+  "richmond-brighouse-and-mclennan-north": {
+    "board": "legacy",
+    "first_period": "2000-04",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Richmond Brighouse And Mclennan North",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "richmond-brighouse-and-mclennan-north"
+  },
+  "richmond-cambie-bridgeport": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Richmond Cambie Bridgeport",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "richmond-cambie-bridgeport"
+  },
+  "richmond-mcnair-ironwood": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Richmond Mcnair Ironwood",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "richmond-mcnair-ironwood"
+  },
+  "richmond-north-northwest": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Richmond North Northwest",
+    "property_types": [
+      "apartment",
+      "townhouse"
+    ],
+    "slug": "richmond-north-northwest"
+  },
+  "richmond-northwest": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Richmond Northwest",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "richmond-northwest"
+  },
+  "richmond-other": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Richmond Other",
+    "property_types": [
+      "apartment",
+      "townhouse"
+    ],
+    "slug": "richmond-other"
+  },
+  "richmond-south-central": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Richmond South Central",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "richmond-south-central"
+  },
+  "richmond-steveston": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Richmond Steveston",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "richmond-steveston"
+  },
+  "s-surrey-crescent-beach-ocean-park": {
+    "board": "legacy",
+    "first_period": "2008-01",
+    "last_period": "2008-12",
+    "level": "neighbourhood",
+    "name": "S Surrey Crescent Beach Ocean Park",
+    "property_types": [
+      "composite"
+    ],
+    "slug": "s-surrey-crescent-beach-ocean-park"
+  },
+  "south-surrey-and-white-rock": {
+    "board": "FVREB",
+    "first_period": "1991-06",
+    "last_period": "2026-06",
+    "level": "municipality",
+    "name": "South Surrey And White Rock",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "detached_acreage",
+      "townhouse"
+    ],
+    "slug": "south-surrey-and-white-rock"
+  },
+  "south-surrey-crescent-beach-ocean-park": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "South Surrey Crescent Beach Ocean Park",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "south-surrey-crescent-beach-ocean-park"
+  },
+  "south-surrey-elgin-chantrell": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "South Surrey Elgin Chantrell",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "south-surrey-elgin-chantrell"
+  },
+  "south-surrey-king-george-corridor": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "South Surrey King George Corridor",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "south-surrey-king-george-corridor"
+  },
+  "south-surrey-south-east": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "South Surrey South East",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "south-surrey-south-east"
+  },
+  "south-surrey-sunnyside-park": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "South Surrey Sunnyside Park",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "south-surrey-sunnyside-park"
+  },
+  "squamish": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Squamish",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "squamish"
+  },
+  "sunshine-coast": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Sunshine Coast",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "sunshine-coast"
+  },
+  "surrey": {
+    "board": "FVREB",
+    "first_period": "1991-06",
+    "last_period": "2026-06",
+    "level": "municipality",
+    "name": "Surrey",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "surrey"
+  },
+  "surrey-bear-creek-green-timbers": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Surrey Bear Creek Green Timbers",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "surrey-bear-creek-green-timbers"
+  },
+  "surrey-cloverdale-and-north-surrey": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Surrey Cloverdale And North Surrey",
+    "property_types": [
+      "composite",
+      "detached_acreage"
+    ],
+    "slug": "surrey-cloverdale-and-north-surrey"
+  },
+  "surrey-east-newton": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Surrey East Newton",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "surrey-east-newton"
+  },
+  "surrey-fleetwood": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Surrey Fleetwood",
+    "property_types": [
+      "composite",
+      "townhouse"
+    ],
+    "slug": "surrey-fleetwood"
+  },
+  "surrey-fleetwood-tynehead": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Surrey Fleetwood Tynehead",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "surrey-fleetwood-tynehead"
+  },
+  "surrey-other": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Surrey Other",
+    "property_types": [
+      "composite",
+      "townhouse"
+    ],
+    "slug": "surrey-other"
+  },
+  "surrey-panorama-ridge-sullivan": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Surrey Panorama Ridge Sullivan",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "surrey-panorama-ridge-sullivan"
+  },
+  "surrey-queen-mary-park": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Surrey Queen Mary Park",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "surrey-queen-mary-park"
+  },
+  "surrey-west-newton": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-12",
+    "level": "neighbourhood",
+    "name": "Surrey West Newton",
+    "property_types": [
+      "composite",
+      "detached"
+    ],
+    "slug": "surrey-west-newton"
+  },
+  "tsawwassen": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Tsawwassen",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "tsawwassen"
+  },
+  "vancouver-east": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Vancouver East",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "vancouver-east"
+  },
+  "vancouver-east-collingwood": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Collingwood",
+    "property_types": [
+      "apartment",
+      "detached"
+    ],
+    "slug": "vancouver-east-collingwood"
+  },
+  "vancouver-east-fraser-main": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Fraser Main",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-east-fraser-main"
+  },
+  "vancouver-east-fraserview": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Fraserview",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-east-fraserview"
+  },
+  "vancouver-east-grandview-mount-pleasant": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Grandview Mount Pleasant",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-east-grandview-mount-pleasant"
+  },
+  "vancouver-east-hastings": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Hastings",
+    "property_types": [
+      "apartment",
+      "detached"
+    ],
+    "slug": "vancouver-east-hastings"
+  },
+  "vancouver-east-killarney-champlain-heights": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Killarney Champlain Heights",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-east-killarney-champlain-heights"
+  },
+  "vancouver-east-knight": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Knight",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-east-knight"
+  },
+  "vancouver-east-mount-pleasant-grandview": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Mount Pleasant Grandview",
+    "property_types": [
+      "apartment"
+    ],
+    "slug": "vancouver-east-mount-pleasant-grandview"
+  },
+  "vancouver-east-other": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Other",
+    "property_types": [
+      "apartment"
+    ],
+    "slug": "vancouver-east-other"
+  },
+  "vancouver-east-renfrew": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Renfrew",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-east-renfrew"
+  },
+  "vancouver-east-renfrew-heights": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Renfrew Heights",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-east-renfrew-heights"
+  },
+  "vancouver-east-south": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East South",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-east-south"
+  },
+  "vancouver-east-victoria": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver East Victoria",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-east-victoria"
+  },
+  "vancouver-west": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Vancouver West",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "vancouver-west"
+  },
+  "vancouver-west-arbutus": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Arbutus",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-west-arbutus"
+  },
+  "vancouver-west-cambie": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Cambie",
+    "property_types": [
+      "apartment",
+      "detached"
+    ],
+    "slug": "vancouver-west-cambie"
+  },
+  "vancouver-west-coal-harbour": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Coal Harbour",
+    "property_types": [
+      "apartment"
+    ],
+    "slug": "vancouver-west-coal-harbour"
+  },
+  "vancouver-west-downtown": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Downtown",
+    "property_types": [
+      "apartment"
+    ],
+    "slug": "vancouver-west-downtown"
+  },
+  "vancouver-west-dunbar": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Dunbar",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-west-dunbar"
+  },
+  "vancouver-west-fairview": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Fairview",
+    "property_types": [
+      "apartment"
+    ],
+    "slug": "vancouver-west-fairview"
+  },
+  "vancouver-west-kerrisdale": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Kerrisdale",
+    "property_types": [
+      "apartment",
+      "detached"
+    ],
+    "slug": "vancouver-west-kerrisdale"
+  },
+  "vancouver-west-kitsilano": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Kitsilano",
+    "property_types": [
+      "apartment",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "vancouver-west-kitsilano"
+  },
+  "vancouver-west-marpole": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Marpole",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-west-marpole"
+  },
+  "vancouver-west-mckenzie-heights": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Mckenzie Heights",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-west-mckenzie-heights"
+  },
+  "vancouver-west-oakridge-south-cambie": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Oakridge South Cambie",
+    "property_types": [
+      "apartment",
+      "detached"
+    ],
+    "slug": "vancouver-west-oakridge-south-cambie"
+  },
+  "vancouver-west-other": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Other",
+    "property_types": [
+      "apartment",
+      "townhouse"
+    ],
+    "slug": "vancouver-west-other"
+  },
+  "vancouver-west-point-grey": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Point Grey",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-west-point-grey"
+  },
+  "vancouver-west-quilchena": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Quilchena",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-west-quilchena"
+  },
+  "vancouver-west-shaughnessy": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Shaughnessy",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-west-shaughnessy"
+  },
+  "vancouver-west-south-granville": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West South Granville",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-west-south-granville"
+  },
+  "vancouver-west-southlands": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Southlands",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-west-southlands"
+  },
+  "vancouver-west-southwest-marine": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-08",
+    "level": "neighbourhood",
+    "name": "Vancouver West Southwest Marine",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "vancouver-west-southwest-marine"
+  },
+  "vancouver-west-west-end": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West West End",
+    "property_types": [
+      "apartment"
+    ],
+    "slug": "vancouver-west-west-end"
+  },
+  "vancouver-west-yaletown": {
+    "board": "legacy",
+    "first_period": "2000-01",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "Vancouver West Yaletown",
+    "property_types": [
+      "apartment"
+    ],
+    "slug": "vancouver-west-yaletown"
+  },
+  "west-vancouver": {
+    "board": "GVR",
+    "first_period": "1991-06",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "West Vancouver",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached"
+    ],
+    "slug": "west-vancouver"
+  },
+  "west-vancouver-east": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "West Vancouver East",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "west-vancouver-east"
+  },
+  "west-vancouver-north": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "West Vancouver North",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "west-vancouver-north"
+  },
+  "west-vancouver-west": {
+    "board": "legacy",
+    "first_period": "1991-06",
+    "last_period": "2011-09",
+    "level": "neighbourhood",
+    "name": "West Vancouver West",
+    "property_types": [
+      "detached"
+    ],
+    "slug": "west-vancouver-west"
+  },
+  "whistler": {
+    "board": "GVR",
+    "first_period": "2018-12",
+    "last_period": "2026-05",
+    "level": "municipality",
+    "name": "Whistler",
+    "property_types": [
+      "apartment",
+      "composite",
+      "detached",
+      "townhouse"
+    ],
+    "slug": "whistler"
+  }
+}

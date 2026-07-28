@@ -1,0 +1,122 @@
+# Vancouver Real Estate MCP
+
+An MCP server that gives any AI agent 35 years of Metro Vancouver and Fraser
+Valley benchmark prices — 1991-06 to 2026-06, 136 areas, 61,034 monthly points.
+
+Everything here is built from public board publications. Aggregate statistics
+only: no listings, no individual transactions.
+
+## Layout
+
+```
+ingest/     data pipeline (Python)
+data/raw/   downloaded sources, gitignored except the small ones
+data/out/   parsed + merged output, including the SQLite the server ships
+server/     Next.js MCP server, deployed to Vercel
+```
+
+## Sources
+
+| Source | Coverage | Granularity |
+|---|---|---|
+| [CREA MLS® HPI archive](https://www.crea.ca/housing-market-stats/mls-home-price-index/hpi-tool/) | 2005-01 → current | board |
+| [GVR monthly stats packages](https://www.gvrealtors.ca/) | 2018-12 → current | neighbourhood |
+| [FVREB monthly stats packages](https://www.fvreb.bc.ca/statistics/) | 2008-01 → current | neighbourhood |
+| [FVREB HPIMLX database](https://www.fvreb.bc.ca/statistics/HPIMLX_DB.xlsx) | 1991-06 → 2011-09 | neighbourhood, both boards |
+
+## The one thing to understand
+
+The boards have **restated** the MLS® HPI more than once. FVREB publishes the
+proof itself — a workbook of "Revised Benchmark Price" against "Original
+Benchmark Price". The effects are large:
+
+- the legacy HPIMLX series sits up to ~35% away from the current CREA
+  benchmark on their 2005-2011 overlap;
+- within a single source, FVREB's own packages jump: Fraser Valley Board reads
+  index 223.9 in the June 2010 package and 144.3 in June 2012.
+
+So the sources cannot simply be concatenated. Instead:
+
+1. every source is cut into segments wherever its own month-over-month move
+   exceeds 20% (no real market moves that fast — Vancouver's worst months were
+   around -5%), which catches restatement boundaries wherever they fall;
+2. segments are sorted newest-first, so the most recent data defines the level;
+3. each older segment is chain-linked on — by the overlap ratio where the
+   segments overlap, by the adjacent-month ratio where they merely abut, and
+   across long holes by carrying the wider market's growth over the hole.
+
+Each point records how it was placed:
+
+| basis | meaning | count |
+|---|---|---|
+| `as_published` | exactly what the board published | 43,222 |
+| `chain_linked` | rescaled onto the current index level | 10,676 |
+| `bridged` | level inferred across a hole in the record | 7,136 |
+
+The MCP tools surface this: `*` marks chain-linked, `+` marks estimated.
+
+## Known gaps
+
+- **GVR neighbourhood data, 2011-10 → 2018-11.** The board does not publish
+  packages that far back and they are not in the Wayback Machine. Board-level
+  Greater Vancouver is unaffected (CREA covers it continuously from 2005).
+- **2025-01 and 2025-02 GVR HPI tables.** GVR withdrew them: "a technical error
+  in the data feed used for the calculation of the Home Price Index". The
+  corrected packages omit the tables, so we leave those months empty.
+- **2022-06 GVR package** — no URL found under any known naming pattern.
+- FVREB packages before 2015 carry no ten-year change column, since the index
+  only began in 2005.
+
+## Rebuilding
+
+```bash
+PY="$HOME/Desktop/Claude Code/.venv/bin/python"
+cd ingest
+$PY fvreb_hpi_db.py      # legacy 1991-2011 (needs data/raw/HPIMLX_DB.xlsx)
+$PY crea_hpi.py          # finds and downloads the current CREA archive
+$PY discover_gvr.py      # probes GVR PDF URLs -> data/out/gvr_pdf_index.json
+$PY boards_pdf.py both   # downloads and parses both boards' packages
+$PY build.py             # merge + chain-link -> series.jsonl
+$PY verify.py            # must print PASS
+$PY to_sqlite.py         # -> data/out/vanre.db
+cp ../data/out/vanre.db ../server/data/
+```
+
+`verify.py` checks the merged series against twelve figures the boards
+published themselves, and fails on any month-over-month jump above 20%.
+
+Monthly refresh: rerun `crea_hpi.py`, `discover_gvr.py`, `boards_pdf.py`, then
+the last four steps.
+
+## Server
+
+```bash
+cd server
+pnpm install
+REQUIRE_API_KEY=false pnpm dev     # MCP at http://localhost:3000/mcp
+```
+
+Environment:
+
+| var | purpose |
+|---|---|
+| `API_KEY_SECRET` | required — HMAC secret for issuing/verifying keys |
+| `RESEND_API_KEY` | optional — emails the key to the requester |
+| `MAIL_FROM` | optional — sender address |
+| `NOTIFY_EMAIL` | optional — copy of each issuance |
+| `PUBLIC_HOST` | optional — host shown in instructions |
+| `REQUIRE_API_KEY` | set `false` to disable auth locally |
+
+Keys are stateless: claims plus an HMAC, so verification needs no database.
+The SQLite file is bundled with the deployment and read via Node's built-in
+`node:sqlite`, so there is no native module to compile and no database to run.
+
+## Tools
+
+`data_coverage`, `list_areas`, `get_price`, `get_price_history`,
+`compare_periods`, `compare_areas`, `rank_areas`, `market_extremes`.
+
+## Disclaimer
+
+Not affiliated with GVR, FVREB or CREA. Figures are provided as-is for
+research; verify against the boards before relying on them for a transaction.

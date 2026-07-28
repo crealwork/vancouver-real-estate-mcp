@@ -1,0 +1,19 @@
+# Downloaded sources — large and reproducible via the ingest scripts.
+data/raw/*.zip
+data/raw/crea_hpi/
+data/raw/fvreb_pdf/
+data/raw/gvr_pdf/
+data/raw/*.xlsx
+
+# Intermediate parses; series.jsonl and the SQLite are what matter.
+data/out/*.jsonl
+
+node_modules/
+.next/
+.env
+.env.local
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+__pycache__/
+*.pyc

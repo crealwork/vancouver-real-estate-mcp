@@ -1,0 +1,3820 @@
+{
+  "abbotsford|apartment": [
+    {
+      "factor": 0.790027,
+      "from": "2009-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-12"
+    },
+    {
+      "factor": 0.790027,
+      "from": "2000-01",
+      "how": "overlap 2009-01..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "abbotsford|composite": [
+    {
+      "factor": 0.703882,
+      "from": "2008-01",
+      "how": "bridged 37m gap using parent growth",
+      "source": "fvreb_pdf",
+      "to": "2008-12"
+    }
+  ],
+  "abbotsford|detached_acreage": [
+    {
+      "factor": 0.749359,
+      "from": "2011-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-10"
+    },
+    {
+      "factor": 0.749359,
+      "from": "2011-09",
+      "how": "overlap 2011-09..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 1.033793,
+      "from": "2011-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-08"
+    },
+    {
+      "factor": 1.033793,
+      "from": "2011-07",
+      "how": "overlap 2011-07..2011-08",
+      "source": "fvreb_hpimlx",
+      "to": "2011-08"
+    },
+    {
+      "factor": 0.820443,
+      "from": "2011-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-06"
+    },
+    {
+      "factor": 0.820443,
+      "from": "2011-03",
+      "how": "overlap 2011-03..2011-06",
+      "source": "fvreb_hpimlx",
+      "to": "2011-06"
+    },
+    {
+      "factor": 0.560531,
+      "from": "2011-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-02"
+    },
+    {
+      "factor": 0.560531,
+      "from": "2011-02",
+      "how": "overlap 2011-02..2011-02",
+      "source": "fvreb_hpimlx",
+      "to": "2011-02"
+    },
+    {
+      "factor": 0.750232,
+      "from": "2010-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-01"
+    },
+    {
+      "factor": 0.750232,
+      "from": "2010-09",
+      "how": "overlap 2010-09..2011-01",
+      "source": "fvreb_hpimlx",
+      "to": "2011-01"
+    },
+    {
+      "factor": 1.169706,
+      "from": "2010-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2010-08"
+    },
+    {
+      "factor": 1.169706,
+      "from": "2010-08",
+      "how": "overlap 2010-08..2010-08",
+      "source": "fvreb_hpimlx",
+      "to": "2010-08"
+    },
+    {
+      "factor": 0.923477,
+      "from": "2010-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2010-07"
+    },
+    {
+      "factor": 0.923477,
+      "from": "2010-06",
+      "how": "overlap 2010-06..2010-07",
+      "source": "fvreb_hpimlx",
+      "to": "2010-07"
+    },
+    {
+      "factor": 1.23443,
+      "from": "2009-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2010-05"
+    },
+    {
+      "factor": 1.23443,
+      "from": "2009-09",
+      "how": "overlap 2009-09..2010-05",
+      "source": "fvreb_hpimlx",
+      "to": "2010-05"
+    },
+    {
+      "factor": 1.481443,
+      "from": "2009-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-08"
+    },
+    {
+      "factor": 1.481443,
+      "from": "2009-08",
+      "how": "overlap 2009-08..2009-08",
+      "source": "fvreb_hpimlx",
+      "to": "2009-08"
+    },
+    {
+      "factor": 0.975762,
+      "from": "2009-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-07"
+    },
+    {
+      "factor": 0.975762,
+      "from": "2009-06",
+      "how": "overlap 2009-06..2009-07",
+      "source": "fvreb_hpimlx",
+      "to": "2009-07"
+    },
+    {
+      "factor": 1.259993,
+      "from": "2009-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-05"
+    },
+    {
+      "factor": 1.259993,
+      "from": "2009-02",
+      "how": "overlap 2009-02..2009-05",
+      "source": "fvreb_hpimlx",
+      "to": "2009-05"
+    },
+    {
+      "factor": 0.821197,
+      "from": "2009-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-01"
+    },
+    {
+      "factor": 0.821197,
+      "from": "2009-01",
+      "how": "overlap 2009-01..2009-01",
+      "source": "fvreb_hpimlx",
+      "to": "2009-01"
+    },
+    {
+      "factor": 1.042883,
+      "from": "2008-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-12"
+    },
+    {
+      "factor": 0.715038,
+      "from": "2008-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-10"
+    },
+    {
+      "factor": 0.508579,
+      "from": "2008-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-01"
+    },
+    {
+      "factor": 0.727625,
+      "from": "2007-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-12"
+    },
+    {
+      "factor": 0.901603,
+      "from": "2006-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2006-12"
+    },
+    {
+      "factor": 1.216111,
+      "from": "2006-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2006-11"
+    },
+    {
+      "factor": 0.781108,
+      "from": "2006-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2006-10"
+    },
+    {
+      "factor": 0.998302,
+      "from": "2005-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2006-07"
+    },
+    {
+      "factor": 1.229277,
+      "from": "2005-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2005-11"
+    },
+    {
+      "factor": 1.705038,
+      "from": "2003-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-12"
+    },
+    {
+      "factor": 2.046217,
+      "from": "2003-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-10"
+    },
+    {
+      "factor": 2.81827,
+      "from": "2003-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-06"
+    },
+    {
+      "factor": 3.663509,
+      "from": "2002-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-12"
+    },
+    {
+      "factor": 2.702248,
+      "from": "2001-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-11"
+    },
+    {
+      "factor": 2.099807,
+      "from": "2001-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-11"
+    },
+    {
+      "factor": 1.621676,
+      "from": "2001-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-06"
+    },
+    {
+      "factor": 1.998239,
+      "from": "2001-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-04"
+    },
+    {
+      "factor": 1.409135,
+      "from": "2001-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-03"
+    },
+    {
+      "factor": 1.981838,
+      "from": "2001-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-02"
+    },
+    {
+      "factor": 1.568684,
+      "from": "2000-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-01"
+    },
+    {
+      "factor": 1.883871,
+      "from": "2000-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-07"
+    },
+    {
+      "factor": 1.496762,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-05"
+    }
+  ],
+  "burnaby-east|detached": [
+    {
+      "factor": 0.92142,
+      "from": "2009-01",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 1.14543,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-12"
+    }
+  ],
+  "burnaby-east|townhouse": [
+    {
+      "factor": 0.771502,
+      "from": "1993-07",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 0.963038,
+      "from": "1991-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1993-06"
+    },
+    {
+      "factor": 0.751352,
+      "from": "1991-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1991-09"
+    },
+    {
+      "factor": 0.991367,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1991-08"
+    }
+  ],
+  "burnaby-north|apartment": [
+    {
+      "factor": 1.128979,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "burnaby-north|townhouse": [
+    {
+      "factor": 0.976734,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "burnaby-south-slope|detached": [
+    {
+      "factor": 1.223822,
+      "from": "2008-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-11"
+    },
+    {
+      "factor": 0.926313,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-10"
+    },
+    {
+      "factor": 1.15365,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    }
+  ],
+  "burnaby-south|townhouse": [
+    {
+      "factor": 1.212635,
+      "from": "2018-12",
+      "how": "adjacent across 1m gap",
+      "source": "gvr_pdf",
+      "to": "2022-04"
+    },
+    {
+      "factor": 0.963407,
+      "from": "1991-09",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 1.181674,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1991-08"
+    }
+  ],
+  "cloverdale|composite": [
+    {
+      "factor": 0.793311,
+      "from": "2008-01",
+      "how": "bridged 37m gap using parent growth",
+      "source": "fvreb_pdf",
+      "to": "2008-12"
+    }
+  ],
+  "coquitlam-westwood|detached": [
+    {
+      "factor": 0.708365,
+      "from": "2011-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-02"
+    },
+    {
+      "factor": 0.856581,
+      "from": "2010-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-01"
+    },
+    {
+      "factor": 0.651827,
+      "from": "2010-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-04"
+    },
+    {
+      "factor": 0.888288,
+      "from": "2010-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-03"
+    },
+    {
+      "factor": 0.693433,
+      "from": "2010-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-02"
+    },
+    {
+      "factor": 0.852689,
+      "from": "2009-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-12"
+    },
+    {
+      "factor": 1.206742,
+      "from": "2009-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-10"
+    },
+    {
+      "factor": 0.790438,
+      "from": "2004-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-09"
+    },
+    {
+      "factor": 0.611415,
+      "from": "2004-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-08"
+    },
+    {
+      "factor": 0.740008,
+      "from": "2004-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-06"
+    },
+    {
+      "factor": 0.591311,
+      "from": "1999-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-05"
+    },
+    {
+      "factor": 0.836065,
+      "from": "1999-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-03"
+    },
+    {
+      "factor": 0.579095,
+      "from": "1998-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-02"
+    },
+    {
+      "factor": 0.810014,
+      "from": "1998-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-05"
+    },
+    {
+      "factor": 0.621994,
+      "from": "1997-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-04"
+    },
+    {
+      "factor": 0.941011,
+      "from": "1997-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-11"
+    },
+    {
+      "factor": 0.709839,
+      "from": "1996-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-10"
+    },
+    {
+      "factor": 0.894742,
+      "from": "1996-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-11"
+    },
+    {
+      "factor": 0.677892,
+      "from": "1996-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-10"
+    },
+    {
+      "factor": 0.534779,
+      "from": "1994-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1995-12"
+    },
+    {
+      "factor": 0.413335,
+      "from": "1994-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-05"
+    },
+    {
+      "factor": 0.518966,
+      "from": "1993-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-04"
+    },
+    {
+      "factor": 0.638544,
+      "from": "1992-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1993-01"
+    }
+  ],
+  "coquitlam|apartment": [
+    {
+      "factor": 1.033563,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "coquitlam|detached": [
+    {
+      "factor": 1.179381,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "coquitlam|townhouse": [
+    {
+      "factor": 0.834973,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "delta|apartment": [
+    {
+      "factor": 0.75515,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-10"
+    }
+  ],
+  "delta|townhouse": [
+    {
+      "factor": 1.257444,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-01"
+    }
+  ],
+  "fraser-valley|apartment": [
+    {
+      "factor": 0.920575,
+      "from": "2009-01",
+      "how": "overlap 2009-01..2026-06",
+      "source": "fvreb_pdf",
+      "to": "2026-06"
+    },
+    {
+      "factor": 0.777026,
+      "from": "1991-06",
+      "how": "overlap 2005-01..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "fraser-valley|composite": [
+    {
+      "factor": 0.951732,
+      "from": "2008-01",
+      "how": "overlap 2008-01..2026-06",
+      "source": "fvreb_pdf",
+      "to": "2026-06"
+    },
+    {
+      "factor": 0.881498,
+      "from": "2000-01",
+      "how": "overlap 2005-01..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "fraser-valley|detached": [
+    {
+      "factor": 1.01221,
+      "from": "2009-01",
+      "how": "overlap 2009-01..2026-06",
+      "source": "fvreb_pdf",
+      "to": "2026-06"
+    },
+    {
+      "factor": 0.982379,
+      "from": "1991-06",
+      "how": "overlap 2005-01..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "fraser-valley|detached_acreage": [
+    {
+      "factor": 1.200885,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-11"
+    }
+  ],
+  "fraser-valley|townhouse": [
+    {
+      "factor": 1.039784,
+      "from": "2009-01",
+      "how": "overlap 2009-01..2026-06",
+      "source": "fvreb_pdf",
+      "to": "2026-06"
+    },
+    {
+      "factor": 0.971599,
+      "from": "1991-06",
+      "how": "overlap 2005-01..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "greater-vancouver|apartment": [
+    {
+      "factor": 0.960307,
+      "from": "2018-12",
+      "how": "overlap 2018-12..2026-05",
+      "source": "gvr_pdf",
+      "to": "2026-05"
+    },
+    {
+      "factor": 0.879406,
+      "from": "1991-06",
+      "how": "overlap 2005-01..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "greater-vancouver|composite": [
+    {
+      "factor": 0.953959,
+      "from": "2018-12",
+      "how": "overlap 2018-12..2026-05",
+      "source": "gvr_pdf",
+      "to": "2026-05"
+    },
+    {
+      "factor": 0.95348,
+      "from": "2000-01",
+      "how": "overlap 2005-01..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "greater-vancouver|detached": [
+    {
+      "factor": 1.003199,
+      "from": "2018-12",
+      "how": "overlap 2018-12..2026-05",
+      "source": "gvr_pdf",
+      "to": "2026-05"
+    },
+    {
+      "factor": 1.065551,
+      "from": "1991-06",
+      "how": "overlap 2005-01..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "greater-vancouver|townhouse": [
+    {
+      "factor": 1.000708,
+      "from": "2018-12",
+      "how": "overlap 2018-12..2026-05",
+      "source": "gvr_pdf",
+      "to": "2026-05"
+    },
+    {
+      "factor": 0.897363,
+      "from": "1991-06",
+      "how": "overlap 2005-01..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "ladner|detached": [
+    {
+      "factor": 1.016383,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "langley|composite": [
+    {
+      "factor": 0.752878,
+      "from": "2008-01",
+      "how": "bridged 37m gap using parent growth",
+      "source": "fvreb_pdf",
+      "to": "2008-12"
+    }
+  ],
+  "langley|detached_acreage": [
+    {
+      "factor": 1.251166,
+      "from": "2009-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-08"
+    },
+    {
+      "factor": 1.251166,
+      "from": "2007-12",
+      "how": "overlap 2009-01..2011-08",
+      "source": "fvreb_hpimlx",
+      "to": "2011-08"
+    },
+    {
+      "factor": 1.509041,
+      "from": "2001-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-11"
+    },
+    {
+      "factor": 1.831231,
+      "from": "1999-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-10"
+    },
+    {
+      "factor": 2.360299,
+      "from": "1999-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-09"
+    },
+    {
+      "factor": 2.941494,
+      "from": "1999-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-02"
+    },
+    {
+      "factor": 2.325629,
+      "from": "1998-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-12"
+    },
+    {
+      "factor": 1.832251,
+      "from": "1997-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-12"
+    },
+    {
+      "factor": 2.446284,
+      "from": "1997-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-10"
+    },
+    {
+      "factor": 1.616502,
+      "from": "1997-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-09"
+    },
+    {
+      "factor": 2.005357,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-08"
+    }
+  ],
+  "maple-ridge-pitt-meadows|detached_acreage": [
+    {
+      "factor": 1.280743,
+      "from": "2011-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-04"
+    },
+    {
+      "factor": 1.612597,
+      "from": "2010-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-02"
+    },
+    {
+      "factor": 1.124721,
+      "from": "2010-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-11"
+    },
+    {
+      "factor": 1.420443,
+      "from": "2010-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-08"
+    },
+    {
+      "factor": 1.814289,
+      "from": "2010-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-02"
+    },
+    {
+      "factor": 1.35103,
+      "from": "2010-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-01"
+    },
+    {
+      "factor": 1.641268,
+      "from": "2007-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-12"
+    },
+    {
+      "factor": 0.881919,
+      "from": "2007-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-02"
+    },
+    {
+      "factor": 1.909847,
+      "from": "2003-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-01"
+    },
+    {
+      "factor": 2.453152,
+      "from": "2002-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-06"
+    },
+    {
+      "factor": 1.837621,
+      "from": "2002-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-10"
+    },
+    {
+      "factor": 2.229883,
+      "from": "2002-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-09"
+    },
+    {
+      "factor": 2.879599,
+      "from": "2001-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-01"
+    },
+    {
+      "factor": 2.176307,
+      "from": "2001-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-05"
+    },
+    {
+      "factor": 2.945771,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-04"
+    }
+  ],
+  "maple-ridge|detached": [
+    {
+      "factor": 1.283451,
+      "from": "2000-01",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "mission|composite": [
+    {
+      "factor": 0.795055,
+      "from": "2008-01",
+      "how": "bridged 37m gap using parent growth",
+      "source": "fvreb_pdf",
+      "to": "2008-12"
+    }
+  ],
+  "mission|detached_acreage": [
+    {
+      "factor": 1.267949,
+      "from": "2011-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-10"
+    },
+    {
+      "factor": 1.267949,
+      "from": "2011-07",
+      "how": "overlap 2011-07..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 1.612264,
+      "from": "2009-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-06"
+    },
+    {
+      "factor": 1.612264,
+      "from": "2007-08",
+      "how": "overlap 2009-02..2011-06",
+      "source": "fvreb_hpimlx",
+      "to": "2011-06"
+    },
+    {
+      "factor": 1.986672,
+      "from": "2007-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-07"
+    },
+    {
+      "factor": 2.402641,
+      "from": "2001-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-03"
+    },
+    {
+      "factor": 2.91855,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-04"
+    }
+  ],
+  "new-westminster|apartment": [
+    {
+      "factor": 1.02232,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "new-westminster|detached": [
+    {
+      "factor": 1.171801,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "north-delta-sunshine-hills-and-woods|detached": [
+    {
+      "factor": 1.207752,
+      "from": "1999-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-06"
+    },
+    {
+      "factor": 1.515876,
+      "from": "1998-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-07"
+    },
+    {
+      "factor": 1.934299,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-09"
+    }
+  ],
+  "north-delta|apartment": [
+    {
+      "factor": 1.298282,
+      "from": "2012-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2017-05"
+    }
+  ],
+  "north-delta|composite": [
+    {
+      "factor": 0.887184,
+      "from": "2008-01",
+      "how": "bridged 37m gap using parent growth",
+      "source": "fvreb_pdf",
+      "to": "2008-12"
+    }
+  ],
+  "north-surrey-fraser-heights|detached": [
+    {
+      "factor": 1.260584,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-05"
+    }
+  ],
+  "north-surrey-guildford|apartment": [
+    {
+      "factor": 1.221667,
+      "from": "1999-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-02"
+    },
+    {
+      "factor": 0.955432,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-07"
+    }
+  ],
+  "north-surrey-guildford|townhouse": [
+    {
+      "factor": 0.771186,
+      "from": "2000-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-05"
+    },
+    {
+      "factor": 1.012173,
+      "from": "2000-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-09"
+    },
+    {
+      "factor": 0.804331,
+      "from": "2000-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-08"
+    },
+    {
+      "factor": 1.101427,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-04"
+    }
+  ],
+  "north-surrey-whalley|apartment": [
+    {
+      "factor": 0.765499,
+      "from": "2000-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-10"
+    },
+    {
+      "factor": 1.003698,
+      "from": "2000-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-09"
+    },
+    {
+      "factor": 1.205901,
+      "from": "2000-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-06"
+    },
+    {
+      "factor": 1.45662,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-02"
+    },
+    {
+      "factor": 1.756389,
+      "from": "1999-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-12"
+    },
+    {
+      "factor": 1.388792,
+      "from": "1999-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-11"
+    },
+    {
+      "factor": 1.097842,
+      "from": "1999-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-08"
+    },
+    {
+      "factor": 1.377548,
+      "from": "1998-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-07"
+    },
+    {
+      "factor": 1.685138,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-06"
+    }
+  ],
+  "north-surrey|apartment": [
+    {
+      "factor": 0.779677,
+      "from": "2009-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-12"
+    },
+    {
+      "factor": 0.779677,
+      "from": "2000-03",
+      "how": "overlap 2009-01..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 0.947326,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-02"
+    }
+  ],
+  "north-surrey|composite": [
+    {
+      "factor": 0.761722,
+      "from": "2012-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2022-04"
+    },
+    {
+      "factor": 0.520894,
+      "from": "2008-01",
+      "how": "bridged 37m gap using parent growth",
+      "source": "fvreb_pdf",
+      "to": "2008-12"
+    }
+  ],
+  "north-surrey|townhouse": [
+    {
+      "factor": 1.201642,
+      "from": "2012-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2017-05"
+    }
+  ],
+  "north-vancouver|apartment": [
+    {
+      "factor": 0.86821,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "north-vancouver|detached": [
+    {
+      "factor": 1.116347,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "north-vancouver|townhouse": [
+    {
+      "factor": 0.953419,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "pitt-meadows|detached": [
+    {
+      "factor": 1.243109,
+      "from": "2009-04",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 1.515514,
+      "from": "2009-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-03"
+    },
+    {
+      "factor": 1.209172,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-01"
+    }
+  ],
+  "port-coquitlam-mary-hill-citadel|detached": [
+    {
+      "factor": 1.247985,
+      "from": "2011-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-01"
+    },
+    {
+      "factor": 0.935671,
+      "from": "2010-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-12"
+    },
+    {
+      "factor": 1.15172,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-03"
+    }
+  ],
+  "port-coquitlam|apartment": [
+    {
+      "factor": 1.022788,
+      "from": "2000-01",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "port-coquitlam|detached": [
+    {
+      "factor": 1.187921,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "port-coquitlam|townhouse": [
+    {
+      "factor": 0.920894,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "port-moody-north|detached": [
+    {
+      "factor": 1.344315,
+      "from": "2010-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-03"
+    },
+    {
+      "factor": 1.069857,
+      "from": "2009-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-01"
+    },
+    {
+      "factor": 1.807746,
+      "from": "2009-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-03"
+    },
+    {
+      "factor": 1.248138,
+      "from": "2009-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-02"
+    },
+    {
+      "factor": 1.630008,
+      "from": "2007-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-12"
+    },
+    {
+      "factor": 2.020203,
+      "from": "2007-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-07"
+    },
+    {
+      "factor": 2.441486,
+      "from": "2004-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-05"
+    },
+    {
+      "factor": 1.87246,
+      "from": "2004-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-10"
+    },
+    {
+      "factor": 2.247907,
+      "from": "2003-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-04"
+    },
+    {
+      "factor": 2.704611,
+      "from": "2003-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-07"
+    },
+    {
+      "factor": 3.355352,
+      "from": "2000-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-01"
+    },
+    {
+      "factor": 4.199955,
+      "from": "1997-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-10"
+    },
+    {
+      "factor": 5.065239,
+      "from": "1995-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-06"
+    },
+    {
+      "factor": 3.746259,
+      "from": "1995-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1995-01"
+    },
+    {
+      "factor": 4.767027,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-12"
+    }
+  ],
+  "port-moody-west|detached": [
+    {
+      "factor": 1.286232,
+      "from": "2009-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-03"
+    },
+    {
+      "factor": 2.075495,
+      "from": "2009-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-03"
+    },
+    {
+      "factor": 1.441224,
+      "from": "2009-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-02"
+    },
+    {
+      "factor": 1.88435,
+      "from": "2007-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-12"
+    },
+    {
+      "factor": 2.332461,
+      "from": "2005-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-07"
+    },
+    {
+      "factor": 2.806368,
+      "from": "2004-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-12"
+    },
+    {
+      "factor": 2.1615,
+      "from": "2004-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-10"
+    },
+    {
+      "factor": 2.738483,
+      "from": "2003-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-04"
+    },
+    {
+      "factor": 3.301847,
+      "from": "2003-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-11"
+    },
+    {
+      "factor": 2.63318,
+      "from": "2003-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-10"
+    },
+    {
+      "factor": 3.32548,
+      "from": "2003-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-07"
+    },
+    {
+      "factor": 4.122128,
+      "from": "2002-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-01"
+    },
+    {
+      "factor": 5.200651,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-12"
+    },
+    {
+      "factor": 4.152776,
+      "from": "2000-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    },
+    {
+      "factor": 5.574072,
+      "from": "1997-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-10"
+    },
+    {
+      "factor": 7.037147,
+      "from": "1995-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-06"
+    },
+    {
+      "factor": 4.873918,
+      "from": "1995-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1995-01"
+    },
+    {
+      "factor": 6.520109,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-12"
+    }
+  ],
+  "port-moody|apartment": [
+    {
+      "factor": 1.159593,
+      "from": "2000-01",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "port-moody|detached": [
+    {
+      "factor": 1.302635,
+      "from": "2010-04",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 1.721921,
+      "from": "2010-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-03"
+    },
+    {
+      "factor": 1.374642,
+      "from": "2009-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-01"
+    },
+    {
+      "factor": 2.282315,
+      "from": "2009-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-03"
+    },
+    {
+      "factor": 1.579238,
+      "from": "2009-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-02"
+    },
+    {
+      "factor": 2.06332,
+      "from": "2007-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-12"
+    },
+    {
+      "factor": 2.556003,
+      "from": "2007-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-07"
+    },
+    {
+      "factor": 3.073808,
+      "from": "2004-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-05"
+    },
+    {
+      "factor": 2.361248,
+      "from": "2000-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-10"
+    },
+    {
+      "factor": 2.89551,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-05"
+    }
+  ],
+  "port-moody|townhouse": [
+    {
+      "factor": 0.972354,
+      "from": "2000-01",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "richmond-cambie-bridgeport|detached": [
+    {
+      "factor": 1.213496,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-12"
+    }
+  ],
+  "richmond-steveston|detached": [
+    {
+      "factor": 1.217638,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-01"
+    }
+  ],
+  "richmond|apartment": [
+    {
+      "factor": 1.084214,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "richmond|detached": [
+    {
+      "factor": 1.041336,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "richmond|townhouse": [
+    {
+      "factor": 0.892559,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "south-surrey-and-white-rock|apartment": [
+    {
+      "factor": 1.203707,
+      "from": "1993-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-07"
+    },
+    {
+      "factor": 1.512558,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1993-06"
+    }
+  ],
+  "south-surrey-and-white-rock|composite": [
+    {
+      "factor": 0.916979,
+      "from": "2008-01",
+      "how": "bridged 37m gap using parent growth",
+      "source": "fvreb_pdf",
+      "to": "2008-12"
+    }
+  ],
+  "south-surrey-and-white-rock|detached_acreage": [
+    {
+      "factor": 1.407459,
+      "from": "2011-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-11"
+    },
+    {
+      "factor": 1.407459,
+      "from": "2011-02",
+      "how": "overlap 2011-02..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 2.668595,
+      "from": "2011-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-01"
+    },
+    {
+      "factor": 2.668595,
+      "from": "2011-01",
+      "how": "overlap 2011-01..2011-01",
+      "source": "fvreb_hpimlx",
+      "to": "2011-01"
+    },
+    {
+      "factor": 1.47556,
+      "from": "2010-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2010-12"
+    },
+    {
+      "factor": 1.47556,
+      "from": "2010-10",
+      "how": "overlap 2010-10..2010-12",
+      "source": "fvreb_hpimlx",
+      "to": "2010-12"
+    },
+    {
+      "factor": 1.830932,
+      "from": "2010-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2010-09"
+    },
+    {
+      "factor": 1.830932,
+      "from": "2010-02",
+      "how": "overlap 2010-02..2010-09",
+      "source": "fvreb_hpimlx",
+      "to": "2010-09"
+    },
+    {
+      "factor": 1.357184,
+      "from": "2010-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2010-01"
+    },
+    {
+      "factor": 1.357184,
+      "from": "2010-01",
+      "how": "overlap 2010-01..2010-01",
+      "source": "fvreb_hpimlx",
+      "to": "2010-01"
+    },
+    {
+      "factor": 2.011402,
+      "from": "2009-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-12"
+    },
+    {
+      "factor": 2.011402,
+      "from": "2009-05",
+      "how": "overlap 2009-05..2009-12",
+      "source": "fvreb_hpimlx",
+      "to": "2009-12"
+    },
+    {
+      "factor": 2.79979,
+      "from": "2009-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-04"
+    },
+    {
+      "factor": 2.79979,
+      "from": "2009-04",
+      "how": "overlap 2009-04..2009-04",
+      "source": "fvreb_hpimlx",
+      "to": "2009-04"
+    },
+    {
+      "factor": 1.74908,
+      "from": "2009-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-03"
+    },
+    {
+      "factor": 1.74908,
+      "from": "2009-03",
+      "how": "overlap 2009-03..2009-03",
+      "source": "fvreb_hpimlx",
+      "to": "2009-03"
+    },
+    {
+      "factor": 2.77246,
+      "from": "2009-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-02"
+    },
+    {
+      "factor": 2.77246,
+      "from": "2009-02",
+      "how": "overlap 2009-02..2009-02",
+      "source": "fvreb_hpimlx",
+      "to": "2009-02"
+    },
+    {
+      "factor": 1.995343,
+      "from": "2009-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-01"
+    },
+    {
+      "factor": 1.995343,
+      "from": "2008-12",
+      "how": "overlap 2009-01..2009-01",
+      "source": "fvreb_hpimlx",
+      "to": "2009-01"
+    },
+    {
+      "factor": 2.568733,
+      "from": "2008-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-11"
+    },
+    {
+      "factor": 3.648963,
+      "from": "2008-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-03"
+    },
+    {
+      "factor": 2.213658,
+      "from": "2008-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-02"
+    },
+    {
+      "factor": 1.42222,
+      "from": "2007-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-12"
+    },
+    {
+      "factor": 2.30386,
+      "from": "2007-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-11"
+    },
+    {
+      "factor": 2.790767,
+      "from": "2006-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2006-12"
+    },
+    {
+      "factor": 2.05134,
+      "from": "2005-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2006-11"
+    },
+    {
+      "factor": 2.629362,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2005-06"
+    },
+    {
+      "factor": 2.030152,
+      "from": "2000-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    },
+    {
+      "factor": 2.836753,
+      "from": "2000-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-11"
+    },
+    {
+      "factor": 3.549794,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-08"
+    }
+  ],
+  "south-surrey-crescent-beach-ocean-park|detached": [
+    {
+      "factor": 1.361118,
+      "from": "1998-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-12"
+    },
+    {
+      "factor": 1.65574,
+      "from": "1998-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-10"
+    },
+    {
+      "factor": 1.266196,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-09"
+    }
+  ],
+  "south-surrey-elgin-chantrell|detached": [
+    {
+      "factor": 1.37239,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2006-01"
+    }
+  ],
+  "squamish|detached": [
+    {
+      "factor": 1.453101,
+      "from": "2011-05",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 1.781516,
+      "from": "2004-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-04"
+    },
+    {
+      "factor": 2.320674,
+      "from": "2004-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-05"
+    },
+    {
+      "factor": 3.147455,
+      "from": "2001-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-03"
+    },
+    {
+      "factor": 3.833634,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-08"
+    },
+    {
+      "factor": 5.582288,
+      "from": "2000-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    },
+    {
+      "factor": 4.186154,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-11"
+    }
+  ],
+  "sunshine-coast|detached": [
+    {
+      "factor": 1.047218,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "surrey-cloverdale-and-north-surrey|composite": [
+    {
+      "factor": 1.23394,
+      "from": "2008-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2008-11"
+    },
+    {
+      "factor": 0.931877,
+      "from": "2008-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2008-10"
+    },
+    {
+      "factor": 1.336412,
+      "from": "2008-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2008-03"
+    },
+    {
+      "factor": 0.797288,
+      "from": "2008-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2008-02"
+    }
+  ],
+  "surrey-cloverdale-and-north-surrey|detached_acreage": [
+    {
+      "factor": 1.417576,
+      "from": "2010-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2011-11"
+    },
+    {
+      "factor": 1.417576,
+      "from": "2010-10",
+      "how": "overlap 2010-10..2011-09",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 1.788992,
+      "from": "2010-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2010-09"
+    },
+    {
+      "factor": 1.788992,
+      "from": "2010-02",
+      "how": "overlap 2010-02..2010-09",
+      "source": "fvreb_hpimlx",
+      "to": "2010-09"
+    },
+    {
+      "factor": 1.25595,
+      "from": "2010-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2010-01"
+    },
+    {
+      "factor": 1.25595,
+      "from": "2010-01",
+      "how": "overlap 2010-01..2010-01",
+      "source": "fvreb_hpimlx",
+      "to": "2010-01"
+    },
+    {
+      "factor": 1.87401,
+      "from": "2009-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-12"
+    },
+    {
+      "factor": 1.87401,
+      "from": "2009-05",
+      "how": "overlap 2009-05..2009-12",
+      "source": "fvreb_hpimlx",
+      "to": "2009-12"
+    },
+    {
+      "factor": 2.765303,
+      "from": "2009-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-04"
+    },
+    {
+      "factor": 2.765303,
+      "from": "2009-04",
+      "how": "overlap 2009-04..2009-04",
+      "source": "fvreb_hpimlx",
+      "to": "2009-04"
+    },
+    {
+      "factor": 1.735008,
+      "from": "2009-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-03"
+    },
+    {
+      "factor": 1.735008,
+      "from": "2009-03",
+      "how": "overlap 2009-03..2009-03",
+      "source": "fvreb_hpimlx",
+      "to": "2009-03"
+    },
+    {
+      "factor": 2.714924,
+      "from": "2009-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_pdf",
+      "to": "2009-02"
+    },
+    {
+      "factor": 2.714924,
+      "from": "2009-02",
+      "how": "overlap 2009-02..2009-02",
+      "source": "fvreb_hpimlx",
+      "to": "2009-02"
+    },
+    {
+      "factor": 1.580544,
+      "from": "2008-12",
+      "how": "adjacent across 2m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-12"
+    },
+    {
+      "factor": 1.950296,
+      "from": "2008-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-11"
+    },
+    {
+      "factor": 1.472872,
+      "from": "2008-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-10"
+    },
+    {
+      "factor": 2.112258,
+      "from": "2008-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-03"
+    },
+    {
+      "factor": 1.260149,
+      "from": "2008-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-02"
+    },
+    {
+      "factor": 0.820469,
+      "from": "2007-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-12"
+    },
+    {
+      "factor": 1.361083,
+      "from": "2007-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-11"
+    },
+    {
+      "factor": 1.655644,
+      "from": "2006-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2006-12"
+    },
+    {
+      "factor": 1.220495,
+      "from": "2005-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2006-11"
+    },
+    {
+      "factor": 1.572693,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2005-06"
+    },
+    {
+      "factor": 1.208477,
+      "from": "2000-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    },
+    {
+      "factor": 1.657231,
+      "from": "2000-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-11"
+    },
+    {
+      "factor": 2.078924,
+      "from": "2000-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-08"
+    },
+    {
+      "factor": 1.65187,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-03"
+    }
+  ],
+  "surrey-fleetwood|townhouse": [
+    {
+      "factor": 0.682264,
+      "from": "1991-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1991-10"
+    },
+    {
+      "factor": 0.917251,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1991-09"
+    }
+  ],
+  "surrey-west-newton|detached": [
+    {
+      "factor": 1.268751,
+      "from": "1999-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-05"
+    },
+    {
+      "factor": 1.001713,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-04"
+    }
+  ],
+  "surrey|composite": [
+    {
+      "factor": 0.792682,
+      "from": "2008-01",
+      "how": "bridged 37m gap using parent growth",
+      "source": "fvreb_pdf",
+      "to": "2008-12"
+    }
+  ],
+  "tsawwassen|detached": [
+    {
+      "factor": 1.070122,
+      "from": "2009-01",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 1.331861,
+      "from": "2000-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-12"
+    },
+    {
+      "factor": 1.598347,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-01"
+    }
+  ],
+  "tsawwassen|townhouse": [
+    {
+      "factor": 1.249852,
+      "from": "2018-12",
+      "how": "adjacent across 1m gap",
+      "source": "gvr_pdf",
+      "to": "2021-04"
+    }
+  ],
+  "vancouver-east-fraserview|detached": [
+    {
+      "factor": 1.253993,
+      "from": "1999-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-12"
+    },
+    {
+      "factor": 1.520242,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-08"
+    }
+  ],
+  "vancouver-east-hastings|apartment": [
+    {
+      "factor": 1.206842,
+      "from": "2002-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-12"
+    },
+    {
+      "factor": 0.939228,
+      "from": "2002-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-07"
+    },
+    {
+      "factor": 1.127193,
+      "from": "2001-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-06"
+    },
+    {
+      "factor": 0.786072,
+      "from": "2001-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-07"
+    },
+    {
+      "factor": 0.957904,
+      "from": "2001-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-06"
+    },
+    {
+      "factor": 1.320371,
+      "from": "2000-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-05"
+    }
+  ],
+  "vancouver-east-hastings|detached": [
+    {
+      "factor": 0.7782,
+      "from": "2008-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-04"
+    },
+    {
+      "factor": 0.615249,
+      "from": "2007-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-12"
+    },
+    {
+      "factor": 0.828745,
+      "from": "2007-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-11"
+    },
+    {
+      "factor": 1.032768,
+      "from": "2004-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-01"
+    },
+    {
+      "factor": 1.239768,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-05"
+    }
+  ],
+  "vancouver-east-other|apartment": [
+    {
+      "factor": 1.245,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-07"
+    }
+  ],
+  "vancouver-east-victoria|detached": [
+    {
+      "factor": 1.268996,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-02"
+    }
+  ],
+  "vancouver-east|apartment": [
+    {
+      "factor": 0.909398,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "vancouver-east|detached": [
+    {
+      "factor": 1.211938,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "vancouver-east|townhouse": [
+    {
+      "factor": 0.900958,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "vancouver-west-arbutus|detached": [
+    {
+      "factor": 1.270799,
+      "from": "1998-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-01"
+    },
+    {
+      "factor": 1.006772,
+      "from": "1996-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-12"
+    },
+    {
+      "factor": 0.805175,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-09"
+    }
+  ],
+  "vancouver-west-cambie|apartment": [
+    {
+      "factor": 1.215435,
+      "from": "2001-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-11"
+    },
+    {
+      "factor": 1.491242,
+      "from": "2000-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-05"
+    },
+    {
+      "factor": 1.189692,
+      "from": "1999-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-02"
+    },
+    {
+      "factor": 1.905824,
+      "from": "1999-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-11"
+    },
+    {
+      "factor": 1.335436,
+      "from": "1999-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-07"
+    },
+    {
+      "factor": 1.779327,
+      "from": "1999-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-02"
+    },
+    {
+      "factor": 1.362442,
+      "from": "1998-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-01"
+    },
+    {
+      "factor": 2.150754,
+      "from": "1996-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-10"
+    },
+    {
+      "factor": 2.971099,
+      "from": "1996-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-11"
+    },
+    {
+      "factor": 3.578496,
+      "from": "1995-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-04"
+    },
+    {
+      "factor": 4.374587,
+      "from": "1995-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1995-06"
+    },
+    {
+      "factor": 3.269619,
+      "from": "1995-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1995-05"
+    },
+    {
+      "factor": 4.307009,
+      "from": "1994-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1995-02"
+    },
+    {
+      "factor": 7.068919,
+      "from": "1994-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-10"
+    },
+    {
+      "factor": 4.540504,
+      "from": "1994-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-09"
+    },
+    {
+      "factor": 5.643704,
+      "from": "1993-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-04"
+    },
+    {
+      "factor": 6.926659,
+      "from": "1992-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1993-08"
+    },
+    {
+      "factor": 8.513634,
+      "from": "1992-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1992-08"
+    },
+    {
+      "factor": 11.087784,
+      "from": "1992-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1992-06"
+    },
+    {
+      "factor": 8.280417,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1992-05"
+    }
+  ],
+  "vancouver-west-cambie|detached": [
+    {
+      "factor": 1.245016,
+      "from": "1999-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-05"
+    },
+    {
+      "factor": 1.517083,
+      "from": "1997-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-12"
+    },
+    {
+      "factor": 1.143196,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-05"
+    }
+  ],
+  "vancouver-west-coal-harbour|apartment": [
+    {
+      "factor": 1.215898,
+      "from": "2001-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-08"
+    },
+    {
+      "factor": 1.513496,
+      "from": "2000-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-01"
+    },
+    {
+      "factor": 1.82321,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-04"
+    }
+  ],
+  "vancouver-west-kerrisdale|apartment": [
+    {
+      "factor": 1.365873,
+      "from": "1994-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-10"
+    },
+    {
+      "factor": 1.69614,
+      "from": "1993-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-10"
+    },
+    {
+      "factor": 1.326167,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1993-06"
+    }
+  ],
+  "vancouver-west-kerrisdale|detached": [
+    {
+      "factor": 0.784345,
+      "from": "1999-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-05"
+    },
+    {
+      "factor": 0.94721,
+      "from": "1998-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-04"
+    },
+    {
+      "factor": 1.236601,
+      "from": "1998-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-10"
+    },
+    {
+      "factor": 0.816668,
+      "from": "1998-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-09"
+    },
+    {
+      "factor": 0.588082,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-06"
+    }
+  ],
+  "vancouver-west-kitsilano|detached": [
+    {
+      "factor": 1.35944,
+      "from": "2009-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-03"
+    },
+    {
+      "factor": 0.936258,
+      "from": "2008-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-02"
+    },
+    {
+      "factor": 0.595279,
+      "from": "2007-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-09"
+    },
+    {
+      "factor": 0.783084,
+      "from": "2007-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2007-01"
+    },
+    {
+      "factor": 0.58859,
+      "from": "2004-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2006-12"
+    },
+    {
+      "factor": 0.468953,
+      "from": "2002-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-08"
+    },
+    {
+      "factor": 0.597794,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-12"
+    }
+  ],
+  "vancouver-west-kitsilano|townhouse": [
+    {
+      "factor": 1.214648,
+      "from": "1998-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    },
+    {
+      "factor": 1.480714,
+      "from": "1997-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-12"
+    },
+    {
+      "factor": 1.127739,
+      "from": "1996-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-11"
+    },
+    {
+      "factor": 0.862797,
+      "from": "1993-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-08"
+    },
+    {
+      "factor": 1.064394,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1993-02"
+    }
+  ],
+  "vancouver-west-marpole|detached": [
+    {
+      "factor": 1.263475,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-01"
+    }
+  ],
+  "vancouver-west-mckenzie-heights|detached": [
+    {
+      "factor": 1.225673,
+      "from": "2001-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-12"
+    },
+    {
+      "factor": 1.572427,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-01"
+    },
+    {
+      "factor": 1.139913,
+      "from": "2000-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    },
+    {
+      "factor": 1.475353,
+      "from": "2000-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-11"
+    },
+    {
+      "factor": 1.853925,
+      "from": "1999-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-01"
+    },
+    {
+      "factor": 2.276396,
+      "from": "1999-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-07"
+    },
+    {
+      "factor": 1.819324,
+      "from": "1993-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-02"
+    },
+    {
+      "factor": 2.235157,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1993-06"
+    }
+  ],
+  "vancouver-west-oakridge-south-cambie|apartment": [
+    {
+      "factor": 1.200351,
+      "from": "1998-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-11"
+    },
+    {
+      "factor": 1.533509,
+      "from": "1992-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-10"
+    },
+    {
+      "factor": 1.849105,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1992-08"
+    }
+  ],
+  "vancouver-west-oakridge-south-cambie|detached": [
+    {
+      "factor": 1.36839,
+      "from": "2008-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-11"
+    },
+    {
+      "factor": 0.989782,
+      "from": "2004-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-10"
+    },
+    {
+      "factor": 1.195701,
+      "from": "2002-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-02"
+    },
+    {
+      "factor": 1.442922,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-11"
+    },
+    {
+      "factor": 2.243908,
+      "from": "2000-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    },
+    {
+      "factor": 1.567749,
+      "from": "1999-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-11"
+    },
+    {
+      "factor": 2.134793,
+      "from": "1999-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-01"
+    },
+    {
+      "factor": 1.165769,
+      "from": "1998-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-12"
+    },
+    {
+      "factor": 1.59715,
+      "from": "1998-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-11"
+    },
+    {
+      "factor": 2.022329,
+      "from": "1997-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-05"
+    },
+    {
+      "factor": 2.488238,
+      "from": "1994-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-07"
+    },
+    {
+      "factor": 3.136201,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-11"
+    }
+  ],
+  "vancouver-west-point-grey|detached": [
+    {
+      "factor": 1.272829,
+      "from": "2008-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2011-08"
+    },
+    {
+      "factor": 0.855682,
+      "from": "2008-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-10"
+    },
+    {
+      "factor": 1.082782,
+      "from": "2003-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-09"
+    },
+    {
+      "factor": 1.375465,
+      "from": "1999-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-01"
+    },
+    {
+      "factor": 1.678882,
+      "from": "1998-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-11"
+    },
+    {
+      "factor": 2.180315,
+      "from": "1998-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-03"
+    },
+    {
+      "factor": 1.577209,
+      "from": "1997-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-02"
+    },
+    {
+      "factor": 1.962702,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-11"
+    }
+  ],
+  "vancouver-west-quilchena|detached": [
+    {
+      "factor": 1.220069,
+      "from": "2001-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-12"
+    },
+    {
+      "factor": 1.558916,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-01"
+    },
+    {
+      "factor": 1.137193,
+      "from": "2000-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    },
+    {
+      "factor": 1.448254,
+      "from": "2000-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-11"
+    },
+    {
+      "factor": 1.792386,
+      "from": "1999-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-01"
+    },
+    {
+      "factor": 2.161855,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-07"
+    }
+  ],
+  "vancouver-west-shaughnessy|detached": [
+    {
+      "factor": 1.204997,
+      "from": "2003-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-03"
+    },
+    {
+      "factor": 1.594298,
+      "from": "2002-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-12"
+    },
+    {
+      "factor": 1.969478,
+      "from": "2002-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-10"
+    },
+    {
+      "factor": 1.405735,
+      "from": "2002-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-09"
+    },
+    {
+      "factor": 1.85218,
+      "from": "2002-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-05"
+    },
+    {
+      "factor": 1.45116,
+      "from": "2002-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-04"
+    },
+    {
+      "factor": 1.760853,
+      "from": "2002-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-02"
+    },
+    {
+      "factor": 2.204522,
+      "from": "2002-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2002-01"
+    },
+    {
+      "factor": 1.594869,
+      "from": "2001-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-12"
+    },
+    {
+      "factor": 2.494572,
+      "from": "2001-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-11"
+    },
+    {
+      "factor": 1.763449,
+      "from": "2001-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-10"
+    },
+    {
+      "factor": 2.176857,
+      "from": "2001-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-08"
+    },
+    {
+      "factor": 1.546632,
+      "from": "2001-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-03"
+    },
+    {
+      "factor": 2.371552,
+      "from": "2000-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-01"
+    },
+    {
+      "factor": 3.143278,
+      "from": "2000-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-11"
+    },
+    {
+      "factor": 2.476293,
+      "from": "2000-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-10"
+    },
+    {
+      "factor": 1.800457,
+      "from": "1999-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-05"
+    },
+    {
+      "factor": 1.427839,
+      "from": "1998-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-06"
+    },
+    {
+      "factor": 1.893794,
+      "from": "1998-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-09"
+    },
+    {
+      "factor": 1.412212,
+      "from": "1998-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-08"
+    },
+    {
+      "factor": 1.799664,
+      "from": "1998-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-07"
+    },
+    {
+      "factor": 2.460671,
+      "from": "1998-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-04"
+    },
+    {
+      "factor": 3.204266,
+      "from": "1998-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-03"
+    },
+    {
+      "factor": 1.720457,
+      "from": "1998-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-02"
+    },
+    {
+      "factor": 3.082958,
+      "from": "1998-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-01"
+    },
+    {
+      "factor": 2.047897,
+      "from": "1997-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-12"
+    },
+    {
+      "factor": 2.464888,
+      "from": "1997-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-10"
+    },
+    {
+      "factor": 1.900209,
+      "from": "1997-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-08"
+    },
+    {
+      "factor": 3.071362,
+      "from": "1997-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1997-01"
+    },
+    {
+      "factor": 2.045334,
+      "from": "1996-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-12"
+    },
+    {
+      "factor": 1.297983,
+      "from": "1996-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-10"
+    },
+    {
+      "factor": 1.849031,
+      "from": "1996-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-09"
+    },
+    {
+      "factor": 2.227525,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-08"
+    }
+  ],
+  "vancouver-west-south-granville|detached": [
+    {
+      "factor": 1.363707,
+      "from": "2008-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-11"
+    },
+    {
+      "factor": 0.985665,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-10"
+    },
+    {
+      "factor": 1.32145,
+      "from": "2000-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    },
+    {
+      "factor": 1.043863,
+      "from": "1999-02",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-11"
+    },
+    {
+      "factor": 1.277313,
+      "from": "1999-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1999-01"
+    },
+    {
+      "factor": 0.846946,
+      "from": "1998-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-12"
+    },
+    {
+      "factor": 1.025369,
+      "from": "1994-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-11"
+    },
+    {
+      "factor": 1.241745,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-11"
+    }
+  ],
+  "vancouver-west-southlands|detached": [
+    {
+      "factor": 1.251481,
+      "from": "1998-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-12"
+    },
+    {
+      "factor": 1.668065,
+      "from": "1998-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-10"
+    },
+    {
+      "factor": 2.134735,
+      "from": "1993-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-06"
+    },
+    {
+      "factor": 2.872472,
+      "from": "1992-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1992-12"
+    },
+    {
+      "factor": 2.264521,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1992-11"
+    }
+  ],
+  "vancouver-west-southwest-marine|detached": [
+    {
+      "factor": 1.240945,
+      "from": "2008-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2010-12"
+    },
+    {
+      "factor": 0.883934,
+      "from": "2008-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-08"
+    },
+    {
+      "factor": 1.098221,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-07"
+    },
+    {
+      "factor": 0.87328,
+      "from": "2000-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    },
+    {
+      "factor": 1.355998,
+      "from": "1998-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-11"
+    },
+    {
+      "factor": 1.850186,
+      "from": "1998-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-10"
+    },
+    {
+      "factor": 2.39686,
+      "from": "1993-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-06"
+    },
+    {
+      "factor": 3.19272,
+      "from": "1992-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1992-12"
+    },
+    {
+      "factor": 2.525485,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1992-11"
+    }
+  ],
+  "vancouver-west|apartment": [
+    {
+      "factor": 0.860194,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "vancouver-west|detached": [
+    {
+      "factor": 1.087986,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "vancouver-west|townhouse": [
+    {
+      "factor": 0.869654,
+      "from": "1991-06",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    }
+  ],
+  "west-vancouver-east|detached": [
+    {
+      "factor": 1.208522,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1996-08"
+    }
+  ],
+  "west-vancouver-west|detached": [
+    {
+      "factor": 1.243438,
+      "from": "2008-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2009-09"
+    },
+    {
+      "factor": 0.942027,
+      "from": "2008-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-11"
+    },
+    {
+      "factor": 1.262534,
+      "from": "2008-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-10"
+    },
+    {
+      "factor": 0.965376,
+      "from": "2005-04",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2008-09"
+    },
+    {
+      "factor": 1.222191,
+      "from": "2004-05",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2005-03"
+    },
+    {
+      "factor": 1.492225,
+      "from": "2003-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2004-04"
+    },
+    {
+      "factor": 1.8152,
+      "from": "2001-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2003-08"
+    },
+    {
+      "factor": 1.392328,
+      "from": "2001-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-11"
+    },
+    {
+      "factor": 1.691122,
+      "from": "2001-08",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-09"
+    },
+    {
+      "factor": 1.21661,
+      "from": "2001-07",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-07"
+    },
+    {
+      "factor": 1.62383,
+      "from": "2000-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-06"
+    },
+    {
+      "factor": 2.01883,
+      "from": "1998-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-10"
+    },
+    {
+      "factor": 1.345279,
+      "from": "1996-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-08"
+    },
+    {
+      "factor": 1.059025,
+      "from": "1995-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1995-12"
+    },
+    {
+      "factor": 1.301865,
+      "from": "1994-11",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1995-11"
+    },
+    {
+      "factor": 1.013368,
+      "from": "1994-10",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-10"
+    },
+    {
+      "factor": 1.22748,
+      "from": "1992-03",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1994-09"
+    },
+    {
+      "factor": 1.56768,
+      "from": "1991-09",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1992-02"
+    },
+    {
+      "factor": 1.244788,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1991-08"
+    }
+  ],
+  "west-vancouver|apartment": [
+    {
+      "factor": 0.897463,
+      "from": "2001-02",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 1.143292,
+      "from": "2001-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2001-01"
+    },
+    {
+      "factor": 0.91413,
+      "from": "2000-01",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "2000-12"
+    }
+  ],
+  "west-vancouver|detached": [
+    {
+      "factor": 1.098186,
+      "from": "1998-09",
+      "how": "bridged 87m gap using parent growth",
+      "source": "fvreb_hpimlx",
+      "to": "2011-09"
+    },
+    {
+      "factor": 0.877541,
+      "from": "1995-12",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1998-08"
+    },
+    {
+      "factor": 1.054736,
+      "from": "1991-06",
+      "how": "adjacent across 1m gap",
+      "source": "fvreb_hpimlx",
+      "to": "1995-11"
+    }
+  ],
+  "whistler|detached": [
+    {
+      "factor": 1.250672,
+      "from": "2018-12",
+      "how": "adjacent across 1m gap",
+      "source": "gvr_pdf",
+      "to": "2021-04"
+    }
+  ]
+}
