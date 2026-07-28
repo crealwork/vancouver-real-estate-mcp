@@ -85,9 +85,28 @@ def parse(path=SOURCE_FILE):
         }
 
 
+def fetch() -> None:
+    """Download the workbook if we do not already have it."""
+    import urllib.request
+
+    from common import UA
+
+    if SOURCE_FILE.exists() and SOURCE_FILE.stat().st_size > 100_000:
+        return
+    SOURCE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    req = urllib.request.Request(SOURCE_URL, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=180) as resp:
+        body = resp.read()
+    if len(body) < 100_000:
+        raise DecodeError(f"{SOURCE_URL} returned only {len(body)} bytes")
+    SOURCE_FILE.write_bytes(body)
+    print(f"downloaded {SOURCE_FILE.name} ({len(body):,} bytes)")
+
+
 def main() -> int:
+    fetch()
     if not SOURCE_FILE.exists():
-        print(f"missing {SOURCE_FILE} — run fetch.py first", file=sys.stderr)
+        print(f"missing {SOURCE_FILE}", file=sys.stderr)
         return 1
 
     records = list(parse())

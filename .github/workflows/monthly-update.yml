@@ -1,0 +1,133 @@
+name: Monthly data update
+
+# The boards publish in the first few days of each month; CREA regenerates
+# its archive shortly after. Running on the 6th gives everyone time to post.
+on:
+  schedule:
+    - cron: "0 17 6 * *" # 6th at 09:00 America/Vancouver (PST) / 10:00 (PDT)
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: "Deploy to production if the data changes"
+        type: boolean
+        default: true
+
+concurrency:
+  group: monthly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install tooling
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          python -m pip install --quiet openpyxl
+
+      # The board PDFs never change once published, so keep them between runs
+      # and only pay for the new month.
+      - name: Restore source cache
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: raw-${{ github.run_id }}
+          restore-keys: |
+            raw-
+
+      - name: Refresh sources
+        working-directory: ingest
+        run: |
+          set -euo pipefail
+          python fvreb_hpi_db.py
+          python crea_hpi.py
+          python discover_gvr.py 2011 $(date -u +%Y)
+          python boards_pdf.py both
+          python boards_activity.py
+
+      - name: Rebuild and verify
+        working-directory: ingest
+        run: |
+          set -euo pipefail
+          python build.py
+          python verify.py          # fails the run on bad data — nothing ships
+          python to_sqlite.py
+          cp ../data/out/vanre.db ../server/data/
+
+      - name: Detect changes
+        id: diff
+        run: |
+          git add -N data/out/vanre.db server/data/vanre.db data/out/areas.json \
+                     data/out/splices.json data/out/gvr_pdf_index.json
+          if git diff --quiet --stat -- data/out server/data; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data change this run."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import sqlite3
+          con = sqlite3.connect("data/out/vanre.db")
+          first, last, n = con.execute(
+              "SELECT MIN(period), MAX(period), COUNT(*) FROM price"
+          ).fetchone()
+          areas = con.execute("SELECT COUNT(*) FROM area").fetchone()[0]
+          print(f"## Data updated\n\n- range: {first} .. {last}\n- points: {n:,}\n- areas: {areas}")
+          PY
+          fi
+
+      - name: Commit
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/out/vanre.db server/data/vanre.db data/out/areas.json \
+                  data/out/splices.json data/out/gvr_pdf_index.json
+          LAST=$(python -c "import sqlite3;print(sqlite3.connect('data/out/vanre.db').execute('SELECT MAX(period) FROM price').fetchone()[0])")
+          git commit -m "Data refresh through ${LAST}"
+          git push
+
+      - name: Deploy
+        if: steps.diff.outputs.changed == 'true' && inputs.deploy != false
+        working-directory: server
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          npx --yes vercel@latest pull --yes --environment=production --token="$VERCEL_TOKEN"
+          npx --yes vercel@latest build --prod --token="$VERCEL_TOKEN"
+          npx --yes vercel@latest deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+
+      - name: Open an issue if the run failed
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const url = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Monthly data update failed (${new Date().toISOString().slice(0, 10)})`,
+              body: [
+                `The scheduled refresh did not complete: ${url}`,
+                '',
+                'Most likely causes, in order of how often they bite:',
+                '- a board changed its PDF layout, so the parser found no rows',
+                '- a board renamed its package file, so `discover_gvr.py` missed a month',
+                '- `verify.py` caught a discontinuity, which means the merge is wrong',
+                '',
+                'Nothing was deployed. Production still serves the last good build.',
+              ].join('\n'),
+            });
