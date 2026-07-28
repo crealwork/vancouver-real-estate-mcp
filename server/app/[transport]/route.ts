@@ -17,6 +17,7 @@ import {
   extremes,
   fmtMoney,
   fmtPct,
+  marketTone,
   sample,
 } from "@/lib/analysis";
 
@@ -400,6 +401,71 @@ const handler = createMcpHandler(
             (skipped.length
               ? `\n\nExcluded for lack of data in that window (${skipped.length}): ${skipped.join(", ")}`
               : ""),
+        );
+      },
+    );
+
+
+    server.tool(
+      "market_activity",
+      "How busy the market is: sales, new listings, active inventory, and the " +
+        "sales-to-active-listings ratio the boards use to call a buyer's or " +
+        "seller's market. Answers 'is it a good time to buy' style questions with " +
+        "the same measure the industry uses.",
+      {
+        area: z.string().describe("Area name or slug."),
+        property_type: PropertyType,
+        period: Period.optional().describe("Defaults to the latest month with activity data."),
+        months: z
+          .number()
+          .int()
+          .min(1)
+          .max(36)
+          .default(1)
+          .describe("How many months back to show, ending at `period`."),
+      },
+      async ({ area, property_type, period, months }) => {
+        const r = areaOrError(area);
+        if (r.error) return r.error;
+        const all = getSeries(r.area.slug, property_type).filter(
+          (p) => p.sales != null || p.active_listings != null,
+        );
+        if (!all.length)
+          return text(
+            `No sales or listing counts for ${r.area.name} (${property_type}). ` +
+              "Activity data covers Fraser Valley areas from 2009 and the Greater " +
+              "Vancouver board total from 2018-12; benchmark prices go much wider. " +
+              "Call list_areas or get_price_history for price coverage.",
+          );
+
+        const endIdx = period ? monthIndex(period) : all[all.length - 1].month_index;
+        const rows = all.filter(
+          (p) => p.month_index <= endIdx && p.month_index > endIdx - months,
+        );
+        if (!rows.length)
+          return text(
+            `No activity data for ${r.area.name} (${property_type}) in that window. ` +
+              `Available ${all[0].period}..${all[all.length - 1].period}.`,
+          );
+
+        const lines = rows.map((p) => {
+          const ratio =
+            p.sales != null && p.active_listings ? (p.sales / p.active_listings) * 100 : null;
+          const parts = [
+            `${p.period}`,
+            `sales ${p.sales ?? "n/a"}`,
+            `new ${p.new_listings ?? "n/a"}`,
+            `active ${p.active_listings ?? "n/a"}`,
+          ];
+          if (ratio != null) parts.push(`ratio ${ratio.toFixed(1)}% — ${marketTone(ratio)}`);
+          return parts.join("  |  ");
+        });
+
+        return text(
+          `${r.area.name} — ${property_type} market activity\n` +
+            lines.join("\n") +
+            "\n\nRatio = sales / active listings. Under 12% sustained tends to mean " +
+            "downward price pressure, over 20% upward (the boards' own guidance).",
         );
       },
     );

@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import sqlite3
 
+from build import canonical_slug
 from common import OUT, month_key, read_jsonl
 
 DB_PATH = OUT / "vanre.db"
@@ -35,6 +36,8 @@ CREATE TABLE price (
     benchmark_price REAL,
     hpi             REAL,
     sales           INTEGER,
+    new_listings    INTEGER,
+    active_listings INTEGER,
     median_price    REAL,
     mean_price      REAL,
     source          TEXT NOT NULL,
@@ -69,15 +72,38 @@ def main() -> int:
         ],
     )
 
+    # Market activity is keyed the same way, so fold it in rather than
+    # keeping a second table the server would have to join.
+    activity: dict[tuple, dict] = {}
+    act_path = OUT / "activity.jsonl"
+    if act_path.exists():
+        for r in read_jsonl(act_path):
+            key = (canonical_slug(r["area_slug"]), r["property_type"], r["period"])
+            activity.setdefault(key, {}).update(
+                {k: v for k, v in r.items()
+                 if k in ("sales", "new_listings", "active_listings", "median_price", "mean_price")
+                 and v is not None}
+            )
+
     rows = []
+    matched = 0
     for r in read_jsonl(OUT / "series.jsonl"):
+        key = (r["area_slug"], r["property_type"], r["period"])
+        act = activity.get(key, {})
+        if act:
+            matched += 1
         rows.append((
             r["area_slug"], r["property_type"], r["period"], month_key(r["period"]),
-            r["benchmark_price"], r.get("hpi"), r.get("sales"),
-            r.get("median_price"), r.get("mean_price"),
+            r["benchmark_price"], r.get("hpi"),
+            act.get("sales", r.get("sales")),
+            act.get("new_listings"),
+            act.get("active_listings"),
+            act.get("median_price", r.get("median_price")),
+            act.get("mean_price", r.get("mean_price")),
             r["source"], 1 if r.get("is_adjusted") else 0, r.get("basis", "as_published"), r.get("as_published"),
         ))
-    con.executemany("INSERT INTO price VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)", rows)
+    con.executemany("INSERT INTO price VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", rows)
+    print(f"  activity merged into {matched:,} of {len(rows):,} points")
 
     periods = con.execute("SELECT MIN(period), MAX(period) FROM price").fetchone()
     con.executemany(

@@ -53,6 +53,8 @@ Each point records how it was placed:
 | `chain_linked` | rescaled onto the current index level | 10,676 |
 | `bridged` | level inferred across a hole in the record | 7,136 |
 
+Activity data is merged onto 5,348 of those points.
+
 The MCP tools surface this: `*` marks chain-linked, `+` marks estimated.
 
 ## Known gaps
@@ -76,6 +78,7 @@ $PY fvreb_hpi_db.py      # legacy 1991-2011 (needs data/raw/HPIMLX_DB.xlsx)
 $PY crea_hpi.py          # finds and downloads the current CREA archive
 $PY discover_gvr.py      # probes GVR PDF URLs -> data/out/gvr_pdf_index.json
 $PY boards_pdf.py both   # downloads and parses both boards' packages
+$PY boards_activity.py   # sales / listings / inventory from the same PDFs
 $PY build.py             # merge + chain-link -> series.jsonl
 $PY verify.py            # must print PASS
 $PY to_sqlite.py         # -> data/out/vanre.db
@@ -114,7 +117,22 @@ The SQLite file is bundled with the deployment and read via Node's built-in
 ## Tools
 
 `data_coverage`, `list_areas`, `get_price`, `get_price_history`,
-`compare_periods`, `compare_areas`, `rank_areas`, `market_extremes`.
+`compare_periods`, `compare_areas`, `rank_areas`, `market_activity`,
+`market_extremes`.
+
+## Market activity
+
+Beyond prices, the packages carry sales, new listings and active inventory.
+`boards_activity.py` extracts them, and `market_activity` exposes the
+sales-to-active-listings ratio the boards themselves cite (under 12% sustained
+means downward pressure, over 20% upward).
+
+The two boards print this very differently. FVREB uses a vertical block per
+area, which parses cleanly — 2009-01 onward, per area. GVR uses a wide matrix
+with area names set vertically, which pdftotext shreds ("Burnab" / "y" on
+separate lines); mapping a column back to an area by position would be
+guesswork, so only the board total is taken, and only when it reconciles
+against the sum of the columns before it.
 
 ## Disclaimer
 

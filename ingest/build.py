@@ -62,6 +62,13 @@ ALIASES = {
     "maple-ridge-and-pitt-meadows": "maple-ridge-pitt-meadows",
     "city-of-surrey-combined": "surrey",
     "delta-ladner": "ladner",
+    # The activity tables spell areas differently from the HPI tables.
+    "delta-north": "north-delta",
+    "surrey-central": "surrey",
+    "surrey-north": "north-surrey",
+    "surrey-cloverdale": "cloverdale",
+    "all-areas-combined": "fraser-valley",
+    "residential-totals": "fraser-valley",
     "delta-tsawwassen": "tsawwassen",
 }
 

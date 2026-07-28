@@ -117,3 +117,14 @@ export function annualise(rows: PricePoint[]): PricePoint[] {
 }
 
 export { monthIndex, periodFromIndex };
+
+/**
+ * The sales-to-active-listings ratio is what the boards themselves cite when
+ * they call the market. Their published guidance: under 12% for a sustained
+ * period tends to mean downward price pressure, over 20% upward.
+ */
+export function marketTone(ratioPct: number): string {
+  if (ratioPct < 12) return "buyer's market (downward pressure)";
+  if (ratioPct > 20) return "seller's market (upward pressure)";
+  return "balanced";
+}

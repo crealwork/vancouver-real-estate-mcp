@@ -22,6 +22,8 @@ export type PricePoint = {
   benchmark_price: number | null;
   hpi: number | null;
   sales: number | null;
+  new_listings: number | null;
+  active_listings: number | null;
   median_price: number | null;
   mean_price: number | null;
   source: string;
