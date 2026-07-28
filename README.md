@@ -88,8 +88,21 @@ cp ../data/out/vanre.db ../server/data/
 `verify.py` checks the merged series against twelve figures the boards
 published themselves, and fails on any month-over-month jump above 20%.
 
-Monthly refresh: rerun `crea_hpi.py`, `discover_gvr.py`, `boards_pdf.py`, then
-the last four steps.
+### Monthly refresh
+
+`.github/workflows/monthly-update.yml` does this automatically on the 6th of
+each month, after both boards have posted and CREA has regenerated its archive.
+It only commits and deploys when `verify.py` passes, so a layout change or a
+bad merge leaves production serving the last good build and opens an issue
+instead. Board PDFs never change once published, so `data/raw` is cached
+between runs and only the new month is fetched.
+
+Trigger it by hand with `gh workflow run monthly-update.yml`.
+
+One caveat on reproducing the database byte-for-byte: `pdftotext` output varies
+slightly between poppler releases, so a local rebuild can differ from the
+runner's by a handful of rows out of ~10,000. The runner is the source of
+truth; `verify.py` is what guards quality, not byte equality.
 
 ## Server
 
