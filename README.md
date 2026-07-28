@@ -59,9 +59,15 @@ The MCP tools surface this: `*` marks chain-linked, `+` marks estimated.
 
 ## Known gaps
 
-- **GVR neighbourhood data, 2011-10 → 2018-11.** The board does not publish
-  packages that far back and they are not in the Wayback Machine. Board-level
-  Greater Vancouver is unaffected (CREA covers it continuously from 2005).
+- **GVR neighbourhood data before 2018-12 is partial.** The board only serves
+  packages back to 2018-12. `discover_wayback.py` recovers 112 more months of
+  archived REBGV packages (2012-07 onward), which fills much of the hole —
+  2016-08, the month the foreign-buyer tax landed, goes from 32 to 107 of 113
+  municipality series. Coverage between 2012 and 2018 is still intermittent,
+  roughly every other month in places. Packages older than 2012 exist in the
+  archive but predate the tabular HPI layout, so nothing parses out of them.
+  Board-level Greater Vancouver is unaffected (CREA covers it continuously
+  from 2005).
 - **2025-01 and 2025-02 GVR HPI tables.** GVR withdrew them: "a technical error
   in the data feed used for the calculation of the Home Price Index". The
   corrected packages omit the tables, so we leave those months empty.
@@ -77,6 +83,7 @@ cd ingest
 $PY fvreb_hpi_db.py      # legacy 1991-2011 (needs data/raw/HPIMLX_DB.xlsx)
 $PY crea_hpi.py          # finds and downloads the current CREA archive
 $PY discover_gvr.py      # probes GVR PDF URLs -> data/out/gvr_pdf_index.json
+$PY discover_wayback.py  # archived REBGV packages covering the pre-2019 gap
 $PY boards_pdf.py both   # downloads and parses both boards' packages
 $PY boards_activity.py   # sales / listings / inventory from the same PDFs
 $PY build.py             # merge + chain-link -> series.jsonl
@@ -86,7 +93,11 @@ cp ../data/out/vanre.db ../server/data/
 ```
 
 `verify.py` checks the merged series against twelve figures the boards
-published themselves, and fails on any month-over-month jump above 20%.
+published themselves, and fails on any month-over-month jump above 20% that
+the merge introduced. Jumps already present in the boards' own figures are
+reported but do not fail the run — Burnaby South townhouses genuinely read
++21% for 2022-05 in GVR's package, and both independent copies of that
+package agree.
 
 ### Monthly refresh
 

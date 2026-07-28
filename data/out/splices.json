@@ -348,16 +348,59 @@
       "to": "2000-05"
     }
   ],
+  "bowen-island|composite": [
+    {
+      "factor": 0.998908,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "bowen-island|detached": [
+    {
+      "factor": 0.998901,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "burnaby-east|apartment": [
+    {
+      "factor": 0.999755,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "burnaby-east|composite": [
+    {
+      "factor": 0.999932,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "burnaby-east|detached": [
     {
-      "factor": 0.92142,
+      "factor": 1.000314,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.856616,
       "from": "2009-01",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     },
     {
-      "factor": 1.14543,
+      "factor": 1.064871,
       "from": "1991-06",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
@@ -366,28 +409,35 @@
   ],
   "burnaby-east|townhouse": [
     {
-      "factor": 0.771502,
+      "factor": 0.999702,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.792543,
       "from": "1993-07",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     },
     {
-      "factor": 0.963038,
+      "factor": 0.989303,
       "from": "1991-10",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "1993-06"
     },
     {
-      "factor": 0.751352,
+      "factor": 0.771843,
       "from": "1991-09",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "1991-09"
     },
     {
-      "factor": 0.991367,
+      "factor": 1.018405,
       "from": "1991-06",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
@@ -396,18 +446,50 @@
   ],
   "burnaby-north|apartment": [
     {
-      "factor": 1.128979,
+      "factor": 1.000343,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.07209,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
+  "burnaby-north|composite": [
+    {
+      "factor": 1.000394,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "burnaby-north|detached": [
+    {
+      "factor": 1.000608,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "burnaby-north|townhouse": [
     {
-      "factor": 0.976734,
+      "factor": 1.000018,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.914436,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
@@ -435,23 +517,57 @@
       "to": "2000-12"
     }
   ],
+  "burnaby-south|apartment": [
+    {
+      "factor": 1.000337,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "burnaby-south|composite": [
+    {
+      "factor": 1.000157,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "burnaby-south|detached": [
+    {
+      "factor": 1.000198,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "burnaby-south|townhouse": [
     {
-      "factor": 1.212635,
+      "factor": 0.998757,
+      "from": "2012-07",
+      "how": "overlap 2022-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.998757,
       "from": "2018-12",
-      "how": "adjacent across 1m gap",
+      "how": "overlap 2018-12..2022-04",
       "source": "gvr_pdf",
       "to": "2022-04"
     },
     {
-      "factor": 0.963407,
+      "factor": 0.710104,
       "from": "1991-09",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     },
     {
-      "factor": 1.181674,
+      "factor": 0.870984,
       "from": "1991-06",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
@@ -632,27 +748,57 @@
   ],
   "coquitlam|apartment": [
     {
-      "factor": 1.033563,
+      "factor": 0.999934,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.875908,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
+  "coquitlam|composite": [
+    {
+      "factor": 1.00015,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "coquitlam|detached": [
     {
-      "factor": 1.179381,
+      "factor": 1.000287,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.993005,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
   "coquitlam|townhouse": [
     {
-      "factor": 0.834973,
+      "factor": 1.000457,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.812151,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
@@ -757,6 +903,13 @@
       "to": "2026-05"
     },
     {
+      "factor": 0.962318,
+      "from": "2012-07",
+      "how": "overlap 2012-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
       "factor": 0.879406,
       "from": "1991-06",
       "how": "overlap 2005-01..2011-09",
@@ -771,6 +924,13 @@
       "how": "overlap 2018-12..2026-05",
       "source": "gvr_pdf",
       "to": "2026-05"
+    },
+    {
+      "factor": 1.002738,
+      "from": "2012-07",
+      "how": "overlap 2012-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
     },
     {
       "factor": 0.95348,
@@ -789,6 +949,13 @@
       "to": "2026-05"
     },
     {
+      "factor": 1.0511,
+      "from": "2012-07",
+      "how": "overlap 2012-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
       "factor": 1.065551,
       "from": "1991-06",
       "how": "overlap 2005-01..2011-09",
@@ -805,6 +972,13 @@
       "to": "2026-05"
     },
     {
+      "factor": 1.007875,
+      "from": "2012-07",
+      "how": "overlap 2012-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
       "factor": 0.897363,
       "from": "1991-06",
       "how": "overlap 2005-01..2011-09",
@@ -812,13 +986,47 @@
       "to": "2011-09"
     }
   ],
+  "ladner|apartment": [
+    {
+      "factor": 1.001586,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "ladner|composite": [
+    {
+      "factor": 1.000188,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "ladner|detached": [
     {
-      "factor": 1.016383,
+      "factor": 1.000329,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.955172,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
+    }
+  ],
+  "ladner|townhouse": [
+    {
+      "factor": 0.999581,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
     }
   ],
   "langley|composite": [
@@ -907,6 +1115,42 @@
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "1997-08"
+    }
+  ],
+  "lower-mainland|apartment": [
+    {
+      "factor": 1.000142,
+      "from": "2012-07",
+      "how": "overlap 2012-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "lower-mainland|composite": [
+    {
+      "factor": 1.00008,
+      "from": "2012-07",
+      "how": "overlap 2012-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "lower-mainland|detached": [
+    {
+      "factor": 1.000039,
+      "from": "2012-07",
+      "how": "overlap 2012-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "lower-mainland|townhouse": [
+    {
+      "factor": 1.000164,
+      "from": "2012-07",
+      "how": "overlap 2012-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
     }
   ],
   "maple-ridge-pitt-meadows|detached_acreage": [
@@ -1016,13 +1260,47 @@
       "to": "2001-04"
     }
   ],
+  "maple-ridge|apartment": [
+    {
+      "factor": 0.999996,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "maple-ridge|composite": [
+    {
+      "factor": 1.000403,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "maple-ridge|detached": [
     {
-      "factor": 1.283451,
+      "factor": 1.0005,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.025053,
       "from": "2000-01",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
+    }
+  ],
+  "maple-ridge|townhouse": [
+    {
+      "factor": 1.000432,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
     }
   ],
   "mission|composite": [
@@ -1087,20 +1365,52 @@
   ],
   "new-westminster|apartment": [
     {
-      "factor": 1.02232,
+      "factor": 0.999802,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.896878,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
+  "new-westminster|composite": [
+    {
+      "factor": 0.999896,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "new-westminster|detached": [
     {
-      "factor": 1.171801,
+      "factor": 1.000321,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.064091,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
+    }
+  ],
+  "new-westminster|townhouse": [
+    {
+      "factor": 0.999741,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
     }
   ],
   "north-delta-sunshine-hills-and-woods|detached": [
@@ -1314,52 +1624,116 @@
   ],
   "north-vancouver|apartment": [
     {
-      "factor": 0.86821,
+      "factor": 1.000199,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.933158,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
+  "north-vancouver|composite": [
+    {
+      "factor": 0.999977,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "north-vancouver|detached": [
     {
-      "factor": 1.116347,
+      "factor": 0.999951,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.989669,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
   "north-vancouver|townhouse": [
     {
-      "factor": 0.953419,
+      "factor": 0.999416,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.971306,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
+  "pitt-meadows|apartment": [
+    {
+      "factor": 0.999944,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "pitt-meadows|composite": [
+    {
+      "factor": 1.00073,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "pitt-meadows|detached": [
     {
-      "factor": 1.243109,
+      "factor": 1.001346,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.970099,
       "from": "2009-04",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     },
     {
-      "factor": 1.515514,
+      "factor": 1.182679,
       "from": "2009-02",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2009-03"
     },
     {
-      "factor": 1.209172,
+      "factor": 0.943616,
       "from": "1991-06",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2009-01"
+    }
+  ],
+  "pitt-meadows|townhouse": [
+    {
+      "factor": 1.000297,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
     }
   ],
   "port-coquitlam-mary-hill-citadel|detached": [
@@ -1387,27 +1761,57 @@
   ],
   "port-coquitlam|apartment": [
     {
-      "factor": 1.022788,
+      "factor": 1.00014,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.876173,
       "from": "2000-01",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
+  "port-coquitlam|composite": [
+    {
+      "factor": 1.000076,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "port-coquitlam|detached": [
     {
-      "factor": 1.187921,
+      "factor": 1.000145,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.000355,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
   "port-coquitlam|townhouse": [
     {
-      "factor": 0.920894,
+      "factor": 0.999878,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.918623,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
@@ -1649,79 +2053,102 @@
   ],
   "port-moody|apartment": [
     {
-      "factor": 1.159593,
+      "factor": 1.000393,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.008984,
       "from": "2000-01",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
+  "port-moody|composite": [
+    {
+      "factor": 1.000227,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "port-moody|detached": [
     {
-      "factor": 1.302635,
+      "factor": 1.000063,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.061217,
       "from": "2010-04",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     },
     {
-      "factor": 1.721921,
+      "factor": 1.402796,
       "from": "2010-02",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2010-03"
     },
     {
-      "factor": 1.374642,
+      "factor": 1.119878,
       "from": "2009-04",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2010-01"
     },
     {
-      "factor": 2.282315,
+      "factor": 1.859331,
       "from": "2009-03",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2009-03"
     },
     {
-      "factor": 1.579238,
+      "factor": 1.286556,
       "from": "2009-01",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2009-02"
     },
     {
-      "factor": 2.06332,
+      "factor": 1.680923,
       "from": "2007-08",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2008-12"
     },
     {
-      "factor": 2.556003,
+      "factor": 2.082296,
       "from": "2007-06",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2007-07"
     },
     {
-      "factor": 3.073808,
+      "factor": 2.504136,
       "from": "2004-11",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2007-05"
     },
     {
-      "factor": 2.361248,
+      "factor": 1.923635,
       "from": "2000-06",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2004-10"
     },
     {
-      "factor": 2.89551,
+      "factor": 2.358882,
       "from": "2000-01",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
@@ -1730,9 +2157,16 @@
   ],
   "port-moody|townhouse": [
     {
-      "factor": 0.972354,
+      "factor": 1.000069,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.028647,
       "from": "2000-01",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
@@ -1757,27 +2191,57 @@
   ],
   "richmond|apartment": [
     {
-      "factor": 1.084214,
+      "factor": 0.999947,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.986686,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
+  "richmond|composite": [
+    {
+      "factor": 1.0001,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "richmond|detached": [
     {
-      "factor": 1.041336,
+      "factor": 1.000255,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.909598,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
   "richmond|townhouse": [
     {
-      "factor": 0.892559,
+      "factor": 0.999985,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.935236,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
@@ -2058,64 +2522,139 @@
       "to": "2006-01"
     }
   ],
+  "squamish|apartment": [
+    {
+      "factor": 1.00208,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "squamish|composite": [
+    {
+      "factor": 1.002259,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "squamish|detached": [
     {
-      "factor": 1.453101,
+      "factor": 1.001585,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.064749,
       "from": "2011-05",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     },
     {
-      "factor": 1.781516,
+      "factor": 1.305392,
       "from": "2004-06",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2011-04"
     },
     {
-      "factor": 2.320674,
+      "factor": 1.700456,
       "from": "2004-04",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2004-05"
     },
     {
-      "factor": 3.147455,
+      "factor": 2.306274,
       "from": "2001-09",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2004-03"
     },
     {
-      "factor": 3.833634,
+      "factor": 2.809066,
       "from": "2001-01",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2001-08"
     },
     {
-      "factor": 5.582288,
+      "factor": 4.09038,
       "from": "2000-12",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2000-12"
     },
     {
-      "factor": 4.186154,
+      "factor": 3.067373,
       "from": "1991-06",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2000-11"
     }
   ],
+  "squamish|townhouse": [
+    {
+      "factor": 1.003354,
+      "from": "2016-01",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.236651,
+      "from": "2012-07",
+      "how": "adjacent across 1m gap",
+      "source": "gvr_wayback",
+      "to": "2015-12"
+    }
+  ],
+  "sunshine-coast|apartment": [
+    {
+      "factor": 1.00342,
+      "from": "2021-07",
+      "how": "overlap 2021-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "sunshine-coast|composite": [
+    {
+      "factor": 0.999695,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "sunshine-coast|detached": [
     {
-      "factor": 1.047218,
+      "factor": 0.999149,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.880402,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
+    }
+  ],
+  "sunshine-coast|townhouse": [
+    {
+      "factor": 1.0056,
+      "from": "2021-07",
+      "how": "overlap 2021-07..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
     }
   ],
   "surrey-cloverdale-and-north-surrey|composite": [
@@ -2387,23 +2926,48 @@
       "to": "2008-12"
     }
   ],
+  "tsawwassen|apartment": [
+    {
+      "factor": 1.001657,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "tsawwassen|composite": [
+    {
+      "factor": 1.000003,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "tsawwassen|detached": [
     {
-      "factor": 1.070122,
+      "factor": 0.999759,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.940801,
       "from": "2009-01",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     },
     {
-      "factor": 1.331861,
+      "factor": 1.170909,
       "from": "2000-02",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2008-12"
     },
     {
-      "factor": 1.598347,
+      "factor": 1.405191,
       "from": "1991-06",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
@@ -2412,10 +2976,24 @@
   ],
   "tsawwassen|townhouse": [
     {
+      "factor": 0.999461,
+      "from": "2021-05",
+      "how": "overlap 2021-05..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
       "factor": 1.249852,
       "from": "2018-12",
       "how": "adjacent across 1m gap",
       "source": "gvr_pdf",
+      "to": "2021-04"
+    },
+    {
+      "factor": 1.249852,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2021-04",
+      "source": "gvr_wayback",
       "to": "2021-04"
     }
   ],
@@ -2536,27 +3114,57 @@
   ],
   "vancouver-east|apartment": [
     {
-      "factor": 0.909398,
+      "factor": 1.000175,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.914779,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
+  "vancouver-east|composite": [
+    {
+      "factor": 1.000024,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "vancouver-east|detached": [
     {
-      "factor": 1.211938,
+      "factor": 1.000001,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.026266,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
   "vancouver-east|townhouse": [
     {
-      "factor": 0.900958,
+      "factor": 0.999831,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.948288,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
@@ -3593,27 +4201,57 @@
   ],
   "vancouver-west|apartment": [
     {
-      "factor": 0.860194,
+      "factor": 1.000535,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.909381,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
+  "vancouver-west|composite": [
+    {
+      "factor": 1.000267,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "vancouver-west|detached": [
     {
-      "factor": 1.087986,
+      "factor": 0.999845,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.069176,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
   ],
   "vancouver-west|townhouse": [
     {
-      "factor": 0.869654,
+      "factor": 1.001003,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.848987,
       "from": "1991-06",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     }
@@ -3764,57 +4402,121 @@
   ],
   "west-vancouver|apartment": [
     {
-      "factor": 0.897463,
+      "factor": 1.000604,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 0.840833,
       "from": "2001-02",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     },
     {
-      "factor": 1.143292,
+      "factor": 1.07115,
       "from": "2001-01",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2001-01"
     },
     {
-      "factor": 0.91413,
+      "factor": 0.856448,
       "from": "2000-01",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "2000-12"
     }
   ],
+  "west-vancouver|composite": [
+    {
+      "factor": 1.00076,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "west-vancouver|detached": [
     {
-      "factor": 1.098186,
+      "factor": 1.000731,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
+    {
+      "factor": 1.113887,
       "from": "1998-09",
-      "how": "bridged 87m gap using parent growth",
+      "how": "bridged 10m gap using parent growth",
       "source": "fvreb_hpimlx",
       "to": "2011-09"
     },
     {
-      "factor": 0.877541,
+      "factor": 0.890088,
       "from": "1995-12",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "1998-08"
     },
     {
-      "factor": 1.054736,
+      "factor": 1.069816,
       "from": "1991-06",
       "how": "adjacent across 1m gap",
       "source": "fvreb_hpimlx",
       "to": "1995-11"
     }
   ],
+  "whistler|apartment": [
+    {
+      "factor": 1.001929,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
+  "whistler|composite": [
+    {
+      "factor": 1.002601,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    }
+  ],
   "whistler|detached": [
+    {
+      "factor": 1.003832,
+      "from": "2021-05",
+      "how": "overlap 2021-05..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
+    },
     {
       "factor": 1.250672,
       "from": "2018-12",
       "how": "adjacent across 1m gap",
       "source": "gvr_pdf",
       "to": "2021-04"
+    },
+    {
+      "factor": 1.250672,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2021-04",
+      "source": "gvr_wayback",
+      "to": "2021-04"
+    }
+  ],
+  "whistler|townhouse": [
+    {
+      "factor": 1.003293,
+      "from": "2012-07",
+      "how": "overlap 2018-12..2026-04",
+      "source": "gvr_wayback",
+      "to": "2026-04"
     }
   ]
 }

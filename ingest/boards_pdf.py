@@ -21,6 +21,7 @@ import re
 import subprocess
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -232,6 +233,42 @@ def run_gvr() -> list[dict]:
     return records
 
 
+def wayback_filename(url: str) -> str:
+    """Mirror the naming discover_wayback.py used when it saved the file."""
+    name = url.rsplit("/", 1)[-1].split("?")[0]
+    return re.sub(r"[^A-Za-z0-9._-]", "_", urllib.parse.unquote(name))[:120]
+
+
+def run_wayback() -> list[dict]:
+    """Archived REBGV packages covering the 2011-10..2018-11 hole."""
+    index_path = OUT / "wayback_pdf_index.json"
+    if not index_path.exists():
+        print("  wayback: no index (run discover_wayback.py first)")
+        return []
+    index = json.loads(index_path.read_text())
+    pdf_dir = RAW / "wayback_pdf"
+    records: list[dict] = []
+    got = 0
+
+    for period, url in sorted(index.items()):
+        dest = pdf_dir / wayback_filename(url)
+        path = dest if dest.exists() and dest.stat().st_size > 10_000 else fetch(url, dest)
+        if path is None:
+            continue
+        got += 1
+        try:
+            rows = list(parse_hpi_table(pdf_text(path), period, "gvr_wayback", url))
+        except DecodeError as exc:
+            print(f"  ! {period}: {exc}", file=sys.stderr)
+            continue
+        if not rows:
+            print(f"  ~ {period}: no HPI rows parsed ({path.name})", file=sys.stderr)
+        records.extend(rows)
+
+    print(f"  wayback: {got} PDFs, {len(records):,} rows parsed")
+    return records
+
+
 def main() -> int:
     which = sys.argv[1] if len(sys.argv) > 1 else "both"
     records: list[dict] = []
@@ -239,6 +276,8 @@ def main() -> int:
         records += run_fvreb()
     if which in ("gvr", "both"):
         records += run_gvr()
+    if which in ("wayback", "both"):
+        records += run_wayback()
 
     if not records:
         raise DecodeError("parsed zero PDF records")

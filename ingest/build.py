@@ -30,7 +30,7 @@ from collections import defaultdict
 
 from common import OUT, month_key, read_jsonl, write_jsonl
 
-SOURCES = ["crea_hpi", "gvr_pdf", "fvreb_pdf", "fvreb_hpimlx"]
+SOURCES = ["crea_hpi", "gvr_pdf", "gvr_wayback", "fvreb_pdf", "fvreb_hpimlx"]
 
 # A real market never moves this fast in a month; anything larger is a
 # restatement boundary. Vancouver's worst months (Oct 2008, Aug 2016) were

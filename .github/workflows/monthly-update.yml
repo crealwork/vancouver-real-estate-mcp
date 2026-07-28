@@ -54,6 +54,7 @@ jobs:
           python fvreb_hpi_db.py
           python crea_hpi.py
           python discover_gvr.py 2011 $(date -u +%Y)
+          python discover_wayback.py   # archived REBGV packages for the older gap
           python boards_pdf.py both
           python boards_activity.py
 
@@ -70,7 +71,8 @@ jobs:
         id: diff
         run: |
           git add -N data/out/vanre.db server/data/vanre.db data/out/areas.json \
-                     data/out/splices.json data/out/gvr_pdf_index.json
+                     data/out/splices.json data/out/gvr_pdf_index.json \
+                     data/out/wayback_pdf_index.json
           if git diff --quiet --stat -- data/out server/data; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No data change this run."
@@ -93,7 +95,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/out/vanre.db server/data/vanre.db data/out/areas.json \
-                  data/out/splices.json data/out/gvr_pdf_index.json
+                  data/out/splices.json data/out/gvr_pdf_index.json \
+                  data/out/wayback_pdf_index.json
           LAST=$(python -c "import sqlite3;print(sqlite3.connect('data/out/vanre.db').execute('SELECT MAX(period) FROM price').fetchone()[0])")
           git commit -m "Data refresh through ${LAST}"
           git push
